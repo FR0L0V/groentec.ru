@@ -462,6 +462,7 @@
 }
 
 #personalCart #coupon{
+	display:none;
 	text-align: right;
 	float: right;
 	/*width: 50%;*/

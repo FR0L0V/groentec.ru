@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1591080268" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#3498db">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="готовый интернет-магазин одежды" />
+    <meta name="description" content="Готовый интернет-магазин одежды DressCode" />
+    <link href="/bitrix/js/main/core/css/core.min.css?15971440592854" type="text/css" rel="stylesheet" />
+
+
+
+    <link href="/bitrix/cache/css/s1/dresscodeV2/kernel_main/kernel_main_v1.css?16249598829804" type="text/css"
+        rel="stylesheet" />
+    <link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?15971441121861" type="text/css"
+        rel="stylesheet" />
+    <link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?159714405923381" type="text/css"
+        rel="stylesheet" />
+    <link
+        href="/bitrix/cache/css/s1/dresscodeV2/page_728fffd2d35595d11b918242e84036c1/page_728fffd2d35595d11b918242e84036c1_v1.css?162496045338628"
+        type="text/css" rel="stylesheet" />
+    <link
+        href="/bitrix/cache/css/s1/dresscodeV2/template_74162c125dde0e188476e06e2cb4288a/template_74162c125dde0e188476e06e2cb4288a_v1.css?1624959882354517"
+        type="text/css" data-template-style="true" rel="stylesheet" />
+    <link href="/bitrix/panel/main/popup.min.css?159714406020704" type="text/css" data-template-style="true"
+        rel="stylesheet" />
+    <script>if (!window.BX) window.BX = {}; if (!window.BX.message) window.BX.message = function (mess) { if (typeof mess == 'object') for (var i in mess) BX.message[i] = mess[i]; return true; };</script>
+    <script>(window.BX || top.BX).message({ 'JS_CORE_LOADING': 'Загрузка...', 'JS_CORE_NO_DATA': '- Нет данных -', 'JS_CORE_WINDOW_CLOSE': 'Закрыть', 'JS_CORE_WINDOW_EXPAND': 'Развернуть', 'JS_CORE_WINDOW_NARROW': 'Свернуть в окно', 'JS_CORE_WINDOW_SAVE': 'Сохранить', 'JS_CORE_WINDOW_CANCEL': 'Отменить', 'JS_CORE_WINDOW_CONTINUE': 'Продолжить', 'JS_CORE_H': 'ч', 'JS_CORE_M': 'м', 'JS_CORE_S': 'с', 'JSADM_AI_HIDE_EXTRA': 'Скрыть лишние', 'JSADM_AI_ALL_NOTIF': 'Показать все', 'JSADM_AUTH_REQ': 'Требуется авторизация!', 'JS_CORE_WINDOW_AUTH': 'Войти', 'JS_CORE_IMAGE_FULL': 'Полный размер' });</script>
+
+    <script src="/bitrix/js/main/core/core.min.js?1597144059247888"></script>
+
+    <script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js', '/bitrix/js/main/core/core_promise.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/loadext/loadext.js', '/bitrix/js/main/loadext/extension.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/includes/js/includes.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/ui/polyfill/closest/js/closest.js', '/bitrix/js/main/polyfill/fill/main.polyfill.fill.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/lazyload/dist/lazyload.bundle.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+        BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css', '/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+    <script>(window.BX || top.BX).message({ 'AMPM_MODE': false }); (window.BX || top.BX).message({ 'MONTH_1': 'Январь', 'MONTH_2': 'Февраль', 'MONTH_3': 'Март', 'MONTH_4': 'Апрель', 'MONTH_5': 'Май', 'MONTH_6': 'Июнь', 'MONTH_7': 'Июль', 'MONTH_8': 'Август', 'MONTH_9': 'Сентябрь', 'MONTH_10': 'Октябрь', 'MONTH_11': 'Ноябрь', 'MONTH_12': 'Декабрь', 'MONTH_1_S': 'Января', 'MONTH_2_S': 'Февраля', 'MONTH_3_S': 'Марта', 'MONTH_4_S': 'Апреля', 'MONTH_5_S': 'Мая', 'MONTH_6_S': 'Июня', 'MONTH_7_S': 'Июля', 'MONTH_8_S': 'Августа', 'MONTH_9_S': 'Сентября', 'MONTH_10_S': 'Октября', 'MONTH_11_S': 'Ноября', 'MONTH_12_S': 'Декабря', 'MON_1': 'Янв', 'MON_2': 'Фев', 'MON_3': 'Мар', 'MON_4': 'Апр', 'MON_5': 'Май', 'MON_6': 'Июн', 'MON_7': 'Июл', 'MON_8': 'Авг', 'MON_9': 'Сен', 'MON_10': 'Окт', 'MON_11': 'Ноя', 'MON_12': 'Дек', 'DAY_OF_WEEK_0': 'Воскресенье', 'DAY_OF_WEEK_1': 'Понедельник', 'DAY_OF_WEEK_2': 'Вторник', 'DAY_OF_WEEK_3': 'Среда', 'DAY_OF_WEEK_4': 'Четверг', 'DAY_OF_WEEK_5': 'Пятница', 'DAY_OF_WEEK_6': 'Суббота', 'DOW_0': 'Вс', 'DOW_1': 'Пн', 'DOW_2': 'Вт', 'DOW_3': 'Ср', 'DOW_4': 'Чт', 'DOW_5': 'Пт', 'DOW_6': 'Сб', 'FD_SECOND_AGO_0': '#VALUE# секунд назад', 'FD_SECOND_AGO_1': '#VALUE# секунду назад', 'FD_SECOND_AGO_10_20': '#VALUE# секунд назад', 'FD_SECOND_AGO_MOD_1': '#VALUE# секунду назад', 'FD_SECOND_AGO_MOD_2_4': '#VALUE# секунды назад', 'FD_SECOND_AGO_MOD_OTHER': '#VALUE# секунд назад', 'FD_SECOND_DIFF_0': '#VALUE# секунд', 'FD_SECOND_DIFF_1': '#VALUE# секунда', 'FD_SECOND_DIFF_10_20': '#VALUE# секунд', 'FD_SECOND_DIFF_MOD_1': '#VALUE# секунда', 'FD_SECOND_DIFF_MOD_2_4': '#VALUE# секунды', 'FD_SECOND_DIFF_MOD_OTHER': '#VALUE# секунд', 'FD_SECOND_SHORT': '#VALUE#с', 'FD_MINUTE_AGO_0': '#VALUE# минут назад', 'FD_MINUTE_AGO_1': '#VALUE# минуту назад', 'FD_MINUTE_AGO_10_20': '#VALUE# минут назад', 'FD_MINUTE_AGO_MOD_1': '#VALUE# минуту назад', 'FD_MINUTE_AGO_MOD_2_4': '#VALUE# минуты назад', 'FD_MINUTE_AGO_MOD_OTHER': '#VALUE# минут назад', 'FD_MINUTE_DIFF_0': '#VALUE# минут', 'FD_MINUTE_DIFF_1': '#VALUE# минута', 'FD_MINUTE_DIFF_10_20': '#VALUE# минут', 'FD_MINUTE_DIFF_MOD_1': '#VALUE# минута', 'FD_MINUTE_DIFF_MOD_2_4': '#VALUE# минуты', 'FD_MINUTE_DIFF_MOD_OTHER': '#VALUE# минут', 'FD_MINUTE_0': '#VALUE# минут', 'FD_MINUTE_1': '#VALUE# минуту', 'FD_MINUTE_10_20': '#VALUE# минут', 'FD_MINUTE_MOD_1': '#VALUE# минуту', 'FD_MINUTE_MOD_2_4': '#VALUE# минуты', 'FD_MINUTE_MOD_OTHER': '#VALUE# минут', 'FD_MINUTE_SHORT': '#VALUE#мин', 'FD_HOUR_AGO_0': '#VALUE# часов назад', 'FD_HOUR_AGO_1': '#VALUE# час назад', 'FD_HOUR_AGO_10_20': '#VALUE# часов назад', 'FD_HOUR_AGO_MOD_1': '#VALUE# час назад', 'FD_HOUR_AGO_MOD_2_4': '#VALUE# часа назад', 'FD_HOUR_AGO_MOD_OTHER': '#VALUE# часов назад', 'FD_HOUR_DIFF_0': '#VALUE# часов', 'FD_HOUR_DIFF_1': '#VALUE# час', 'FD_HOUR_DIFF_10_20': '#VALUE# часов', 'FD_HOUR_DIFF_MOD_1': '#VALUE# час', 'FD_HOUR_DIFF_MOD_2_4': '#VALUE# часа', 'FD_HOUR_DIFF_MOD_OTHER': '#VALUE# часов', 'FD_HOUR_SHORT': '#VALUE#ч', 'FD_YESTERDAY': 'вчера', 'FD_TODAY': 'сегодня', 'FD_TOMORROW': 'завтра', 'FD_DAY_AGO_0': '#VALUE# дней назад', 'FD_DAY_AGO_1': '#VALUE# день назад', 'FD_DAY_AGO_10_20': '#VALUE# дней назад', 'FD_DAY_AGO_MOD_1': '#VALUE# день назад', 'FD_DAY_AGO_MOD_2_4': '#VALUE# дня назад', 'FD_DAY_AGO_MOD_OTHER': '#VALUE# дней назад', 'FD_DAY_DIFF_0': '#VALUE# дней', 'FD_DAY_DIFF_1': '#VALUE# день', 'FD_DAY_DIFF_10_20': '#VALUE# дней', 'FD_DAY_DIFF_MOD_1': '#VALUE# день', 'FD_DAY_DIFF_MOD_2_4': '#VALUE# дня', 'FD_DAY_DIFF_MOD_OTHER': '#VALUE# дней', 'FD_DAY_AT_TIME': '#DAY# в #TIME#', 'FD_DAY_SHORT': '#VALUE#д', 'FD_MONTH_AGO_0': '#VALUE# месяцев назад', 'FD_MONTH_AGO_1': '#VALUE# месяц назад', 'FD_MONTH_AGO_10_20': '#VALUE# месяцев назад', 'FD_MONTH_AGO_MOD_1': '#VALUE# месяц назад', 'FD_MONTH_AGO_MOD_2_4': '#VALUE# месяца назад', 'FD_MONTH_AGO_MOD_OTHER': '#VALUE# месяцев назад', 'FD_MONTH_DIFF_0': '#VALUE# месяцев', 'FD_MONTH_DIFF_1': '#VALUE# месяц', 'FD_MONTH_DIFF_10_20': '#VALUE# месяцев', 'FD_MONTH_DIFF_MOD_1': '#VALUE# месяц', 'FD_MONTH_DIFF_MOD_2_4': '#VALUE# месяца', 'FD_MONTH_DIFF_MOD_OTHER': '#VALUE# месяцев', 'FD_MONTH_SHORT': '#VALUE#мес', 'FD_YEARS_AGO_0': '#VALUE# лет назад', 'FD_YEARS_AGO_1': '#VALUE# год назад', 'FD_YEARS_AGO_10_20': '#VALUE# лет назад', 'FD_YEARS_AGO_MOD_1': '#VALUE# год назад', 'FD_YEARS_AGO_MOD_2_4': '#VALUE# года назад', 'FD_YEARS_AGO_MOD_OTHER': '#VALUE# лет назад', 'FD_YEARS_DIFF_0': '#VALUE# лет', 'FD_YEARS_DIFF_1': '#VALUE# год', 'FD_YEARS_DIFF_10_20': '#VALUE# лет', 'FD_YEARS_DIFF_MOD_1': '#VALUE# год', 'FD_YEARS_DIFF_MOD_2_4': '#VALUE# года', 'FD_YEARS_DIFF_MOD_OTHER': '#VALUE# лет', 'FD_YEARS_SHORT_0': '#VALUE#л', 'FD_YEARS_SHORT_1': '#VALUE#г', 'FD_YEARS_SHORT_10_20': '#VALUE#л', 'FD_YEARS_SHORT_MOD_1': '#VALUE#г', 'FD_YEARS_SHORT_MOD_2_4': '#VALUE#г', 'FD_YEARS_SHORT_MOD_OTHER': '#VALUE#л', 'CAL_BUTTON': 'Выбрать', 'CAL_TIME_SET': 'Установить время', 'CAL_TIME': 'Время', 'FD_LAST_SEEN_TOMORROW': 'завтра в #TIME#', 'FD_LAST_SEEN_NOW': 'только что', 'FD_LAST_SEEN_TODAY': 'сегодня в #TIME#', 'FD_LAST_SEEN_YESTERDAY': 'вчера в #TIME#', 'FD_LAST_SEEN_MORE_YEAR': 'более года назад' });</script>
+    <script>(window.BX || top.BX).message({ 'WEEK_START': '1' });</script>
+    <script>(window.BX || top.BX).message({ 'pull_server_enabled': 'N', 'pull_config_timestamp': '0', 'pull_guest_mode': 'N', 'pull_guest_user_id': '0' }); (window.BX || top.BX).message({ 'PULL_OLD_REVISION': 'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.' });</script>
+    <script>(window.BX || top.BX).message({ 'LANGUAGE_ID': 'ru', 'FORMAT_DATE': 'DD.MM.YYYY', 'FORMAT_DATETIME': 'DD.MM.YYYY HH:MI:SS', 'COOKIE_PREFIX': 'BITRIX_SM', 'SERVER_TZ_OFFSET': '10800', 'SITE_ID': 's1', 'SITE_DIR': '/', 'USER_ID': '85', 'SERVER_TIME': '1625041938', 'USER_TZ_OFFSET': '0', 'USER_TZ_AUTO': 'Y', 'bitrix_sessid': '64d5178749cd7bdab8823229ceca631d' });</script>
+
+
+    <script src="/bitrix/cache/js/s1/dresscodeV2/kernel_main/kernel_main_v1.js?1625001254184067"></script>
+    <script src="/bitrix/js/main/core/core_ls.min.js?15971440597365"></script>
+    <script src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?159714405957817"></script>
+    <script src="/bitrix/js/pull/protobuf/protobuf.min.js?159714409076433"></script>
+    <script src="/bitrix/js/pull/protobuf/model.min.js?159714409013978"></script>
+    <script src="/bitrix/js/rest/client/rest.client.min.js?15971440918529"></script>
+    <script src="/bitrix/js/pull/client/pull.client.min.js?159714409041212"></script>
+    <script>BX.setJSList(['/bitrix/js/main/core/core_fx.js', '/bitrix/js/main/core/core_window.js', '/bitrix/js/main/date/main.date.js', '/bitrix/js/main/core/core_date.js', '/bitrix/js/main/session.js', '/bitrix/js/main/utils.js', '/bitrix/js/main/rating_like.js', '/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/script.js', '/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/js/compatibility.js', '/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/js/fast-order.js', '/bitrix/templates/dresscodeV2/js/jquery-1.11.0.min.js', '/bitrix/templates/dresscodeV2/js/jquery.easing.1.3.js', '/bitrix/templates/dresscodeV2/js/fotorama.js', '/bitrix/templates/dresscodeV2/js/rangeSlider.js', '/bitrix/templates/dresscodeV2/js/maskedinput.js', '/bitrix/templates/dresscodeV2/js/system.js', '/bitrix/templates/dresscodeV2/js/topMenu.js', '/bitrix/templates/dresscodeV2/js/topSearch.js', '/bitrix/templates/dresscodeV2/js/dwCarousel.js', '/bitrix/templates/dresscodeV2/js/dwSlider.js', '/bitrix/templates/dresscodeV2/js/dwTimer.js', '/bitrix/templates/dresscodeV2/js/dwZoomer.js', '/bitrix/components/dresscode/sale.geo.positiion/templates/.default/script.js', '/bitrix/templates/dresscodeV2/components/bitrix/menu/topMenu4/script.js', '/bitrix/templates/dresscodeV2/components/bitrix/form.result.new/modal/script.js', '/bitrix/components/dresscode/search.line/templates/version2/script.js', '/bitrix/templates/dresscodeV2/components/bitrix/menu/catalogMenu/script.js', '/bitrix/templates/dresscodeV2/components/bitrix/catalog.bigdata.products/.default/script.js', '/bitrix/components/dresscode/catalog.product.subscribe.online/templates/.default/script.js']);</script>
+    <script>BX.setCSSList(['/bitrix/js/main/core/css/core_date.css', '/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/style.css', '/bitrix/templates/dresscodeV2/components/bitrix/sale.gift.basket/.default/style.css', '/bitrix/templates/dresscodeV2/fonts/roboto/roboto.css', '/bitrix/templates/dresscodeV2/fotorama.css', '/bitrix/templates/dresscodeV2/themes/custom/style.css', '/bitrix/templates/dresscodeV2/headers/header5/css/style.css', '/bitrix/templates/dresscodeV2/headers/header5/css/types/type1.css', '/bitrix/components/dresscode/sale.geo.positiion/templates/.default/style.css', '/bitrix/templates/dresscodeV2/components/bitrix/menu/topMenu4/style.css', '/bitrix/templates/dresscodeV2/components/bitrix/form.result.new/modal/style.css', '/bitrix/components/dresscode/search.line/templates/version2/style.css', '/bitrix/components/dresscode/compare.line/templates/version4/style.css', '/bitrix/components/dresscode/favorite.line/templates/version4/style.css', '/bitrix/templates/dresscodeV2/components/bitrix/sale.basket.basket.line/topCart5/style.css', '/bitrix/templates/dresscodeV2/components/bitrix/menu/catalogMenu/style.css', '/bitrix/templates/dresscodeV2/components/bitrix/breadcrumb/.default/style.css', '/bitrix/components/dresscode/products.by.filter/templates/.default/style.css', '/bitrix/components/dresscode/catalog.viewed.product/templates/.default/style.css', '/bitrix/templates/dresscodeV2/components/bitrix/catalog.bigdata.products/.default/style.css', '/bitrix/templates/dresscodeV2/styles.css', '/bitrix/templates/dresscodeV2/template_styles.css']);</script>
+    <script>BX.bind(window, "load", function () { BX.PULL.start(); });</script>
+
+
+
+    <script
+        src="/bitrix/cache/js/s1/dresscodeV2/template_06b8e0012b81b1b9419189e2bbf15356/template_06b8e0012b81b1b9419189e2bbf15356_v1.js?1624959882322033"></script>
+    <script
+        src="/bitrix/cache/js/s1/dresscodeV2/page_48c1e8af1494fc33cb0a95ff45d54dfa/page_48c1e8af1494fc33cb0a95ff45d54dfa_v1.js?162496044382704"></script>
+    <script>
+        bxSession.mess.messSessExpired = 'Ваш сеанс работы с сайтом завершен из-за отсутствия активности в течение 10080 мин. Введенные на странице данные не будут сохранены. Скопируйте их перед тем, как закроете или обновите страницу.';
+        bxSession.Expand(604800, '64d5178749cd7bdab8823229ceca631d', true, '6e3ae0379225c8ab1465fb72cb5375e1');
+    </script>
+    <script>var _ba = _ba || []; _ba.push(["aid", "260b84c5f191847e1eee7e0747ea417c"]); _ba.push(["host", "groentec.ru"]); (function () { var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true; ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ba, s); })();</script>
+
+
+    <title>Корзина</title>
+</head>
+
+<body class="loading  panels_white">
+    <div id="panel">
+    </div>
+    <div id="foundation">
+        <div id="headerLine2" class="color_theme">
+            <div class="limiter">
+                <div class="headerLineContainer">
+                    <div class="headerLineColumn">
+                        <div id="geoPosition">
+                            <ul>
+                                <!--'start_frame_cache_1Kz6Lg'-->
+                                <li>
+                                    <div class="user-geo-position">
+                                        <div class="user-geo-position-label">Ваш город:</div>
+                                        <div class="user-geo-position-value"><a href="#"
+                                                class="user-geo-position-value-link"><span>Санкт-Петербург</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="null">
+                                    <div id="geo-location-window" class="hidden">
+                                        <div class="geo-location-window-container">
+                                            <div class="geo-location-window-container-bg">
+                                                <div class="geo-location-window-heading"> Выберите ваш город <a href="#"
+                                                        class="geo-location-window-exit"></a></div>
+                                                <div class="geo-location-window-wp">
+                                                    <div class="geo-location-window-search">
+                                                        <input type="text" autocomplete="new-password"
+                                                            value="Санкт-Петербург"
+                                                            class="geo-location-window-search-input" data-id="269">
+                                                        <div class="geo-location-window-search-values-cn">
+                                                            <div class="geo-location-window-search-values"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="geo-location-window-city-container">
+                                                        <div class="geo-location-window-city-label">Сейчас выбран:</div>
+                                                        <div class="geo-location-window-city-value">Санкт-Петербург
+                                                        </div>
+                                                    </div>
+                                                    <div class="geo-location-window-button-container">
+                                                        <a href="#" class="geo-location-window-button">Запомнить город
+                                                            <span id="geo-location-window-fast-loader">
+                                                                <span class="f_circleG" id="frotateG_01"></span>
+                                                                <span class="f_circleG" id="frotateG_02"></span>
+                                                                <span class="f_circleG" id="frotateG_03"></span>
+                                                                <span class="f_circleG" id="frotateG_04"></span>
+                                                                <span class="f_circleG" id="frotateG_05"></span>
+                                                                <span class="f_circleG" id="frotateG_06"></span>
+                                                                <span class="f_circleG" id="frotateG_07"></span>
+                                                                <span class="f_circleG" id="frotateG_08"></span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="geo-location-ref-window" data-disabled="N">
+                                        <div class="geo-location-ref-window-city-container">
+                                            <div class="geo-location-ref-window-city-label">Сейчас выбран:</div>
+                                            <div class="geo-location-ref-window-city-value">Санкт-Петербург</div>
+                                            <div class="get-location-ref-window-confirm"><a href="#"
+                                                    class="get-location-ref-window-confirm-button btn-simple btn-small">Подтверждаю</a>
+                                            </div>
+                                            <div class="get-location-ref-window-change"><a href="#"
+                                                    class="get-location-ref-window-change-button theme-link-dashed">Изменить</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <script>
+                                    var geoPositionAjaxDir = "/bitrix/components/dresscode/sale.geo.positiion";
+                                    var geoPositionEngine = "";
+                                </script>
+                                <!--'end_frame_cache_1Kz6Lg'-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="headerLineColumn headerLineMenu">
+                        <ul id="subMenu">
+                            <li><a href="/about/">О компании</a></li>
+                            <li><a href="/o-tovare/">О товаре</a></li>
+                            <li><a href="/proizvodstvo/">Производство</a></li>
+                            <li><a href="/about/delivery/">Доставка</a></li>
+                            <li><a href="/oplata/">Оплата</a></li>
+                            <li><a href="/blog/">Примеры работ</a></li>
+                            <li><a href="/services/">Услуги</a></li>
+                            <li><a href="/news/">Новости</a></li>
+                            <li><a href="/prices-info/">Оптовикам</a></li>
+                            <li><a href="/reviews/">Отзывы</a></li>
+                            <li><a href="/dlya-yuridicheskikh-lits/">Для юридических лиц</a></li>
+                            <li><a href="/about/contacts/">Контакты</a></li>
+                            <li><a href="/politika-konfidentsialnosti/">Политика конфиденциальности</a></li>
+                            <li><a href="/polzovatelskoe-soglashenie/">Пользовательское соглашение</a></li>
+                            <li><a href="/rekvizity/">Реквизиты </a></li>
+                        </ul>
+                    </div>
+                    <div class="headerLineColumn">
+                        <div id="topAuth">
+                            <ul>
+                                <li class="top-auth-personal"><a href="/personal/">Личный кабинет</a></li>
+                                <li class="top-auth-exit"><a href="/exit/">Выход</a></li>
+                            </ul>
+                        </div>
+                        <div id="topCallBack">
+                            <a href="#" class="openWebFormModal link callBack" data-id="2">Заказать звонок</a>
+                            <div class="webformModal" id="webFormDwModal_2">
+                                <div class="webformModalHideScrollBar">
+                                    <div class="webformModalcn100">
+                                        <div class="webformModalContainer">
+                                            <div class="webFormDwModal" data-id="2">
+                                                <form name="SIMPLE_FORM_2" action="/personal/cart/" method="POST"
+                                                    enctype="multipart/form-data"><input type="hidden" name="sessid"
+                                                        id="sessid" value="64d5178749cd7bdab8823229ceca631d" /><input
+                                                        type="hidden" name="WEB_FORM_ID" value="2" />
+                                                    <div class="webFormModalHeading">Заказать звонок<a href="#"
+                                                            class="webFormModalHeadingExit"></a></div>
+                                                    <p class="webFormDescription">Оставьте Ваше сообщение и контактные
+                                                        данные и наши специалисты свяжутся с Вами в ближайшее рабочее
+                                                        время для решения Вашего вопроса.</p>
+                                                    <div class="webFormItems">
+                                                        <div class="webFormItem" id="WEB_FORM_ITEM_TELEPHONE">
+                                                            <div class="webFormItemCaption">
+                                                                <img src="/upload/form/37e/37e1860606555d2ce72165bacee75493.png"
+                                                                    class="webFormItemImage" alt="Ваш телефон">
+                                                                <div class="webFormItemLabel">Ваш телефон<span
+                                                                        class="webFormItemRequired">*</span></div>
+                                                            </div>
+                                                            <div class="webFormItemError"></div>
+                                                            <div class="webFormItemField" data-required="Y">
+                                                                <input type="text" class="inputtext" name="form_text_6"
+                                                                    value="" size="40" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="webFormItem" id="WEB_FORM_ITEM_NAME">
+                                                            <div class="webFormItemCaption">
+                                                                <img src="/upload/form/7d7/7d70961c7542d099412e637f773e2411.png"
+                                                                    class="webFormItemImage" alt="Ваше имя">
+                                                                <div class="webFormItemLabel">Ваше имя</div>
+                                                            </div>
+                                                            <div class="webFormItemError"></div>
+                                                            <div class="webFormItemField">
+                                                                <input type="text" class="inputtext" name="form_text_7"
+                                                                    value="" size="40" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="personalInfo">
+                                                            <div class="webFormItem">
+                                                                <div class="webFormItemError"></div>
+                                                                <div class="webFormItemField" data-required="Y">
+                                                                    <input type="checkbox" class="personalInfoField"
+                                                                        name="personalInfo" value="Y"><label
+                                                                        class="label-for" data-for="personalInfoField">Я
+                                                                        согласен на <a href="/personal-info/"
+                                                                            class="pilink">обработку персональных
+                                                                            данных.</a><span
+                                                                            class="webFormItemRequired">*</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="webFormError"></div>
+                                                    <div class="webFormTools">
+                                                        <div class="tb">
+                                                            <div class="tc">
+                                                                <input type="submit" name="web_form_submit"
+                                                                    value="Отправить" class="sendWebFormDw" />
+                                                                <input type="hidden" name="web_form_apply" value="Y" />
+                                                            </div>
+                                                            <div class="tc"><input type="reset" value="Сбросить" />
+                                                            </div>
+                                                        </div>
+                                                        <p><span class="form-required starrequired">*</span> - Поля,
+                                                            обязательные для заполнения</p>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="webFormMessage" id="webFormMessage_2">
+                                <div class="webFormMessageContainer">
+                                    <div class="webFormMessageMiddle">
+                                        <div class="webFormMessageHeading">Сообщение отправлено</div>
+                                        <div class="webFormMessageDescription">Ваше сообщение успешно отправлено. В
+                                            ближайшее время с Вами свяжется наш специалист</div>
+                                        <a href="#" class="webFormMessageExit">Закрыть окно</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                var webFormAjaxDir = "/bitrix/templates/dresscodeV2/components/bitrix/form.result.new/modal/ajax.php";
+                                var webFormSiteId = "s1";
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="subHeader5">
+            <div class="limiter">
+                <div class="subTable">
+                    <div class="subTableColumn">
+                        <div id="logo">
+                            <a href="/"><img src="/bitrix/templates/dresscodeV2/images/logo_groentec.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="subTableColumn">
+                        <span class="heading">+7 (800) 500-05-15</span><a href="#"
+                            class="openWebFormModal link callBack" data-id="2">Заказать звонок</a>
+                        <div class="webformModal" id="webFormDwModal_2">
+                            <div class="webformModalHideScrollBar">
+                                <div class="webformModalcn100">
+                                    <div class="webformModalContainer">
+                                        <div class="webFormDwModal" data-id="2">
+                                            <form name="SIMPLE_FORM_2" action="/personal/cart/" method="POST"
+                                                enctype="multipart/form-data"><input type="hidden" name="sessid"
+                                                    id="sessid_1" value="64d5178749cd7bdab8823229ceca631d" /><input
+                                                    type="hidden" name="WEB_FORM_ID" value="2" />
+                                                <div class="webFormModalHeading">Заказать звонок<a href="#"
+                                                        class="webFormModalHeadingExit"></a></div>
+                                                <p class="webFormDescription">Оставьте Ваше сообщение и контактные
+                                                    данные и наши специалисты свяжутся с Вами в ближайшее рабочее время
+                                                    для решения Вашего вопроса.</p>
+                                                <div class="webFormItems">
+                                                    <div class="webFormItem" id="WEB_FORM_ITEM_TELEPHONE">
+                                                        <div class="webFormItemCaption">
+                                                            <img src="/upload/form/37e/37e1860606555d2ce72165bacee75493.png"
+                                                                class="webFormItemImage" alt="Ваш телефон">
+                                                            <div class="webFormItemLabel">Ваш телефон<span
+                                                                    class="webFormItemRequired">*</span></div>
+                                                        </div>
+                                                        <div class="webFormItemError"></div>
+                                                        <div class="webFormItemField" data-required="Y">
+                                                            <input type="text" class="inputtext" name="form_text_6"
+                                                                value="" size="40" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="webFormItem" id="WEB_FORM_ITEM_NAME">
+                                                        <div class="webFormItemCaption">
+                                                            <img src="/upload/form/7d7/7d70961c7542d099412e637f773e2411.png"
+                                                                class="webFormItemImage" alt="Ваше имя">
+                                                            <div class="webFormItemLabel">Ваше имя</div>
+                                                        </div>
+                                                        <div class="webFormItemError"></div>
+                                                        <div class="webFormItemField">
+                                                            <input type="text" class="inputtext" name="form_text_7"
+                                                                value="" size="40" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="personalInfo">
+                                                        <div class="webFormItem">
+                                                            <div class="webFormItemError"></div>
+                                                            <div class="webFormItemField" data-required="Y">
+                                                                <input type="checkbox" class="personalInfoField"
+                                                                    name="personalInfo" value="Y"><label
+                                                                    class="label-for" data-for="personalInfoField">Я
+                                                                    согласен на <a href="/personal-info/"
+                                                                        class="pilink">обработку персональных
+                                                                        данных.</a><span
+                                                                        class="webFormItemRequired">*</span></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="webFormError"></div>
+                                                <div class="webFormTools">
+                                                    <div class="tb">
+                                                        <div class="tc">
+                                                            <input type="submit" name="web_form_submit"
+                                                                value="Отправить" class="sendWebFormDw" />
+                                                            <input type="hidden" name="web_form_apply" value="Y" />
+                                                        </div>
+                                                        <div class="tc"><input type="reset" value="Сбросить" /></div>
+                                                    </div>
+                                                    <p><span class="form-required starrequired">*</span> - Поля,
+                                                        обязательные для заполнения</p>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="webFormMessage" id="webFormMessage_2">
+                            <div class="webFormMessageContainer">
+                                <div class="webFormMessageMiddle">
+                                    <div class="webFormMessageHeading">Сообщение отправлено</div>
+                                    <div class="webFormMessageDescription">Ваше сообщение успешно отправлено. В
+                                        ближайшее время с Вами свяжется наш специалист</div>
+                                    <a href="#" class="webFormMessageExit">Закрыть окно</a>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            var webFormAjaxDir = "/bitrix/templates/dresscodeV2/components/bitrix/form.result.new/modal/ajax.php";
+                            var webFormSiteId = "s1";
+                        </script>
+                    </div>
+                    <div class="subTableColumn">
+                    </div>
+                    <div class="subTableColumn">
+                        <div id="topSearchLine">
+                            <div id="topSearch2">
+                                <form action="/search/" method="GET" id="topSearchForm">
+                                    <div class="searchContainerInner">
+                                        <div class="searchContainer">
+                                            <div class="searchColumn">
+                                                <input type="text" name="q" value="" autocomplete="off"
+                                                    placeholder="Поиск по каталогу магазина" id="searchQuery">
+                                            </div>
+                                            <div class="searchColumn">
+                                                <input type="submit" name="send" value="Y" id="goSearch">
+                                                <input type="hidden" name="r" value="Y">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="searchResult"></div>
+                            <div id="searchOverlap"></div>
+                            <script>
+                                var searchAjaxPath = "/bitrix/components/dresscode/search.line/ajax.php";
+                                var searchProductParams = '{"COMPONENT_TEMPLATE":"version2","IBLOCK_TYPE":"catalog","IBLOCK_ID":"16","CACHE_TYPE":"A","CACHE_TIME":"3600000","PRICE_CODE":["BASE"],"CONVERT_CURRENCY":"Y","CURRENCY_ID":"RUB","PROPERTY_CODE":["OFFERS","ATT_BRAND","COLOR","ZOOM2","BATTERY_LIFE","SWITCH","GRAF_PROC","LENGTH_OF_CORD","DISPLAY","LOADING_LAUNDRY","FULL_HD_VIDEO_RECORD","INTERFACE","COMPRESSORS","Number_of_Outlets","MAX_RESOLUTION_VIDEO","MAX_BUS_FREQUENCY","MAX_RESOLUTION","FREEZER","POWER_SUB","POWER","HARD_DRIVE_SPACE","MEMORY","OS","ZOOM","PAPER_FEED","SUPPORTED_STANDARTS","VIDEO_FORMAT","SUPPORT_2SIM","MP3","ETHERNET_PORTS","MATRIX","CAMERA","PHOTOSENSITIVITY","DEFROST","SPEED_WIFI","SPIN_SPEED","PRINT_SPEED","SOCKET","IMAGE_STABILIZER","GSM","SIM","TYPE","MEMORY_CARD","TYPE_BODY","TYPE_MOUSE","TYPE_PRINT","CONNECTION","TYPE_OF_CONTROL","TYPE_DISPLAY","TYPE2","REFRESH_RATE","RANGE","AMOUNT_MEMORY","MEMORY_CAPACITY","VIDEO_BRAND","DIAGONAL","RESOLUTION","TOUCH","CORES","LINE_PROC","PROCESSOR","CLOCK_SPEED","TYPE_PROCESSOR","PROCESSOR_SPEED","HARD_DRIVE","HARD_DRIVE_TYPE","Number_of_memory_slots","MAXIMUM_MEMORY_FREQUENCY","TYPE_MEMORY","BLUETOOTH","FM","GPS","HDMI","SMART_TV","USB","WIFI","FLASH","ROTARY_DISPLAY","SUPPORT_3D","SUPPORT_3G","WITH_COOLER","FINGERPRINT","COLLECTION","TOTAL_OUTPUT_POWER","VID_ZASTECHKI","VID_SUMKI","PROFILE","VYSOTA_RUCHEK","GAS_CONTROL","WARRANTY","GRILL","MORE_PROPERTIES","GENRE","OTSEKOV","CONVECTION","INTAKE_POWER","NAZNAZHENIE","BULK","PODKLADKA","SURFACE_COATING","brand_tyres","SEASON","SEASONOST","DUST_COLLECTION","REF","COUNTRY_BRAND","DRYING","REMOVABLE_TOP_COVER","CONTROL","FINE_FILTER","FORM_FAKTOR","SKU_COLOR","CML2_ARTICLE","DELIVERY","PICKUP","USER_ID","BLOG_POST_ID","VIDEO","BLOG_COMMENTS_CNT","VOTE_COUNT","SHOW_MENU","SIMILAR_PRODUCT","RATING","RELATED_PRODUCT","VOTE_SUM",""],"HIDE_NOT_AVAILABLE":"N","HIDE_MEASURES":"N","~COMPONENT_TEMPLATE":"version2","~IBLOCK_TYPE":"catalog","~IBLOCK_ID":"16","~CACHE_TYPE":"A","~CACHE_TIME":"3600000","~PRICE_CODE":["BASE"],"~CONVERT_CURRENCY":"Y","~CURRENCY_ID":"RUB","~PROPERTY_CODE":["OFFERS","ATT_BRAND","COLOR","ZOOM2","BATTERY_LIFE","SWITCH","GRAF_PROC","LENGTH_OF_CORD","DISPLAY","LOADING_LAUNDRY","FULL_HD_VIDEO_RECORD","INTERFACE","COMPRESSORS","Number_of_Outlets","MAX_RESOLUTION_VIDEO","MAX_BUS_FREQUENCY","MAX_RESOLUTION","FREEZER","POWER_SUB","POWER","HARD_DRIVE_SPACE","MEMORY","OS","ZOOM","PAPER_FEED","SUPPORTED_STANDARTS","VIDEO_FORMAT","SUPPORT_2SIM","MP3","ETHERNET_PORTS","MATRIX","CAMERA","PHOTOSENSITIVITY","DEFROST","SPEED_WIFI","SPIN_SPEED","PRINT_SPEED","SOCKET","IMAGE_STABILIZER","GSM","SIM","TYPE","MEMORY_CARD","TYPE_BODY","TYPE_MOUSE","TYPE_PRINT","CONNECTION","TYPE_OF_CONTROL","TYPE_DISPLAY","TYPE2","REFRESH_RATE","RANGE","AMOUNT_MEMORY","MEMORY_CAPACITY","VIDEO_BRAND","DIAGONAL","RESOLUTION","TOUCH","CORES","LINE_PROC","PROCESSOR","CLOCK_SPEED","TYPE_PROCESSOR","PROCESSOR_SPEED","HARD_DRIVE","HARD_DRIVE_TYPE","Number_of_memory_slots","MAXIMUM_MEMORY_FREQUENCY","TYPE_MEMORY","BLUETOOTH","FM","GPS","HDMI","SMART_TV","USB","WIFI","FLASH","ROTARY_DISPLAY","SUPPORT_3D","SUPPORT_3G","WITH_COOLER","FINGERPRINT","COLLECTION","TOTAL_OUTPUT_POWER","VID_ZASTECHKI","VID_SUMKI","PROFILE","VYSOTA_RUCHEK","GAS_CONTROL","WARRANTY","GRILL","MORE_PROPERTIES","GENRE","OTSEKOV","CONVECTION","INTAKE_POWER","NAZNAZHENIE","BULK","PODKLADKA","SURFACE_COATING","brand_tyres","SEASON","SEASONOST","DUST_COLLECTION","REF","COUNTRY_BRAND","DRYING","REMOVABLE_TOP_COVER","CONTROL","FINE_FILTER","FORM_FAKTOR","SKU_COLOR","CML2_ARTICLE","DELIVERY","PICKUP","USER_ID","BLOG_POST_ID","VIDEO","BLOG_COMMENTS_CNT","VOTE_COUNT","SHOW_MENU","SIMILAR_PRODUCT","RATING","RELATED_PRODUCT","VOTE_SUM",""],"~HIDE_NOT_AVAILABLE":"N","~HIDE_MEASURES":"N","LAZY_LOAD_PICTURES":"N"}';
+                            </script>
+                        </div>
+                    </div>
+                    <div class="subTableColumn">
+                        <div class="toolsContainer">
+                            <div class="topCompare">
+                                <div id="flushTopCompare">
+                                    <!--'start_frame_cache_yqTuxz'-->
+                                    <a class="text">
+                                        <span class="icon"></span>
+                                        <span class="value">0</span>
+                                    </a>
+
+                                    <script>
+                                        window.compareTemplate = "version4";
+                                    </script>
+
+                                    <!--'end_frame_cache_yqTuxz'-->
+                                </div>
+                            </div>
+                            <div class="topWishlist">
+                                <div id="flushTopwishlist">
+                                    <!--'start_frame_cache_zkASNO'--><a class="text">
+                                        <span class="icon"></span>
+                                        <span class="value">0</span>
+                                    </a>
+
+                                    <script>
+                                        window.wishListTemplate = "version4";
+                                    </script>
+
+                                    <!--'end_frame_cache_zkASNO'-->
+                                </div>
+                            </div>
+                            <div class="cart">
+                                <div id="flushTopCart">
+                                    <!--'start_frame_cache_FKauiI'--> <a href="/personal/cart/"
+                                        class="countLink active">
+                                        <span class="count">1</span>
+                                    </a>
+                                    <a href="/personal/cart/" class="heading active">
+                                        <span class="cartLabel">
+                                            В корзине </span>
+                                        <span class="total">
+                                            870 руб. </span>
+                                    </a>
+                                    <script>
+                                        window.topCartTemplate = "topCart5";
+                                    </script>
+                                    <script>
+                                        $(function () {
+                                            //if exist function
+                                            if (typeof changeAddCartButton == "function") {
+                                                //vars
+                                                var jsonComponentResult = { "NUM_PRODUCTS": 1, "TOTAL_PRICE": "870 \u0440\u0443\u0431.", "CATEGORIES": { "READY": [{ "ID": "170", "~ID": "170", "LID": "s1", "~LID": "s1", "MODULE": "catalog", "~MODULE": "catalog", "PRODUCT_ID": 363, "~PRODUCT_ID": "363", "QUANTITY": 1, "~QUANTITY": "1.0000", "WEIGHT": "0.00", "~WEIGHT": "0.00", "DELAY": "N", "~DELAY": "N", "CAN_BUY": "Y", "~CAN_BUY": "Y", "PRICE": 870, "~PRICE": 870, "CUSTOM_PRICE": "N", "~CUSTOM_PRICE": "N", "BASE_PRICE": 870, "~BASE_PRICE": 870, "PRODUCT_PRICE_ID": "114", "~PRODUCT_PRICE_ID": "114", "PRICE_TYPE_ID": "1", "~PRICE_TYPE_ID": "1", "CURRENCY": "RUB", "~CURRENCY": "RUB", "BARCODE_MULTI": "N", "~BARCODE_MULTI": "N", "RESERVED": "N", "~RESERVED": "N", "RESERVE_QUANTITY": null, "~RESERVE_QUANTITY": null, "NAME": "\u0421\u0430\u0439\u0434\u0438\u043d\u0433 180-14-3000 \u0441 \u0442\u0438\u0441\u043d\u0435\u043d\u0438\u0435\u043c 3D, \u0412\u0435\u043d\u0433\u0435 (3\u043c)", "~NAME": "\u0421\u0430\u0439\u0434\u0438\u043d\u0433 180-14-3000 \u0441 \u0442\u0438\u0441\u043d\u0435\u043d\u0438\u0435\u043c 3D, \u0412\u0435\u043d\u0433\u0435 (3\u043c)", "CATALOG_XML_ID": "92_s1", "~CATALOG_XML_ID": "92_s1", "VAT_RATE": "0.0000", "~VAT_RATE": "0.0000", "NOTES": "\u0420\u043e\u0437\u043d\u0438\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430", "~NOTES": "\u0420\u043e\u0437\u043d\u0438\u0447\u043d\u0430\u044f \u0446\u0435\u043d\u0430", "DISCOUNT_PRICE": 0, "~DISCOUNT_PRICE": 0, "PRODUCT_PROVIDER_CLASS": "\\Bitrix\\Catalog\\Product\\CatalogProvider", "~PRODUCT_PROVIDER_CLASS": "\\Bitrix\\Catalog\\Product\\CatalogProvider", "CALLBACK_FUNC": null, "~CALLBACK_FUNC": null, "ORDER_CALLBACK_FUNC": null, "~ORDER_CALLBACK_FUNC": null, "PAY_CALLBACK_FUNC": null, "~PAY_CALLBACK_FUNC": null, "CANCEL_CALLBACK_FUNC": null, "~CANCEL_CALLBACK_FUNC": null, "DIMENSIONS": "a:3:{s:5:\u0026quot;WIDTH\u0026quot;;N;s:6:\u0026quot;HEIGHT\u0026quot;;N;s:6:\u0026quot;LENGTH\u0026quot;;N;}", "~DIMENSIONS": "a:3:{s:5:\u0022WIDTH\u0022;N;s:6:\u0022HEIGHT\u0022;N;s:6:\u0022LENGTH\u0022;N;}", "TYPE": null, "~TYPE": null, "SET_PARENT_ID": null, "~SET_PARENT_ID": null, "DETAIL_PAGE_URL": "\/catalog\/dpk\/fasady_i_komplektuyushchie\/fasady\/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html", "~DETAIL_PAGE_URL": "\/catalog\/dpk\/fasady_i_komplektuyushchie\/fasady\/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html", "FUSER_ID": "297938", "~FUSER_ID": "297938", "MEASURE_CODE": "796", "~MEASURE_CODE": "796", "MEASURE_NAME": "\u0448\u0442", "~MEASURE_NAME": "\u0448\u0442", "ORDER_ID": null, "~ORDER_ID": null, "DATE_INSERT": {}, "~DATE_INSERT": {}, "DATE_UPDATE": {}, "~DATE_UPDATE": {}, "PRODUCT_XML_ID": "046\/91\/00054025", "~PRODUCT_XML_ID": "046\/91\/00054025", "SUBSCRIBE": "N", "~SUBSCRIBE": "N", "RECOMMENDATION": null, "~RECOMMENDATION": null, "VAT_INCLUDED": "Y", "~VAT_INCLUDED": "Y", "SORT": "100", "~SORT": "100", "DATE_REFRESH": null, "~DATE_REFRESH": null, "DISCOUNT_NAME": null, "~DISCOUNT_NAME": null, "DISCOUNT_VALUE": null, "~DISCOUNT_VALUE": null, "DISCOUNT_COUPON": null, "~DISCOUNT_COUPON": null, "XML_ID": "bx_60db0a8a34992", "~XML_ID": "bx_60db0a8a34992", "MARKING_CODE_GROUP": null, "~MARKING_CODE_GROUP": null, "SUM_VALUE": 870, "SUM": "870 \u0440\u0443\u0431.", "PRICE_FMT": "870 \u0440\u0443\u0431.", "FULL_PRICE": "870 \u0440\u0443\u0431.", "PRICE_FORMATED": "870 \u0440\u0443\u0431.", "DISCOUNT_PRICE_PERCENT": 0, "DISCOUNT_PRICE_PERCENT_FORMATED": "0%", "PREVIEW_PICTURE": null, "DETAIL_PICTURE": null, "PROPERTY_MORE_PHOTO_VALUE": null, "~PROPERTY_MORE_PHOTO_VALUE": null, "PROPERTY_MORE_PHOTO_VALUE_ID": null, "~PROPERTY_MORE_PHOTO_VALUE_ID": null, "PICTURE_SRC": "" }] }, "TOTAL_PRICE_RAW": 870, "ERROR_MESSAGE": "\u0412\u0430\u0448\u0430 \u043a\u043e\u0440\u0437\u0438\u043d\u0430 \u043f\u0443\u0441\u0442\u0430", "DISABLE_USE_BASKET": false, "BASKET_COUNT_DESCRIPTION": "1 \u043f\u043e\u0437\u0438\u0446\u0438\u044f", "PRODUCT(S)": "\u043f\u043e\u0437\u0438\u0446\u0438\u044f", "PRODUCTS": "\u0412 \u0432\u0430\u0448\u0435\u0439 \u043a\u043e\u0440\u0437\u0438\u043d\u0435 1 \u043f\u043e\u0437\u0438\u0446\u0438\u044f" }				//change addCart labels and clases
+                                                changeAddCartButton(jsonComponentResult);
+                                            }
+                                        });
+                                    </script>
+                                    <!--'end_frame_cache_FKauiI'-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menuContainerColor">
+            <div id="mainMenuStaticContainer">
+                <div id="mainMenuContainer" class="auto-fixed">
+                    <div class="limiter">
+                        <a href="/catalog/" class="minCatalogButton" id="catalogSlideButton">
+                            <img src="/bitrix/templates/dresscodeV2/images/catalogButton.png" alt=""> Каталог товаров
+                        </a>
+                        <ul id="mainMenu">
+                            <li class="eChild allow-dropdown">
+                                <a href="/catalog/dpk/" class="menuLink">
+                                    <span class="back"></span>
+                                    <span class="link-title">ДПК</span>
+                                    <span class="dropdown btn-simple btn-micro"></span>
+                                </a>
+                                <div class="drop">
+                                    <div class="limiter">
+                                        <ul class="nextColumn">
+                                            <li class="allow-dropdown">
+                                                <a href="/catalog/dpk/gryadochnaya_doska/" class="menu2Link">
+                                                    Грядочная доска <span class="dropdown btn-simple btn-micro"></span>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/catalog/dpk/gryadochnaya_doska/gryadochnaya_doska/"
+                                                            class="menu2Link">
+                                                            Грядочная доска </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/catalog/dpk/gryadochnaya_doska/komplektuyushchie/"
+                                                            class="menu2Link">
+                                                            Комплектующие </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="allow-dropdown">
+                                                <a href="/catalog/dpk/zabornye_ogruzhdeniya_i_komplektuyushchie/"
+                                                    class="menu2Link">
+                                                    Заборные огруждения и комплектующие <span
+                                                        class="dropdown btn-simple btn-micro"></span>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/catalog/dpk/zabornye_ogruzhdeniya_i_komplektuyushchie/zabornye_ograzhdeniya/"
+                                                            class="menu2Link">
+                                                            заборные ограждения </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/catalog/dpk/zabornye_ogruzhdeniya_i_komplektuyushchie/komplektuyushchie/"
+                                                            class="menu2Link">
+                                                            комплектующие </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="allow-dropdown">
+                                                <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/"
+                                                    class="menu2Link">
+                                                    Террасная доска и комплектующие <span
+                                                        class="dropdown btn-simple btn-micro"></span>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/komplektuyushchie/"
+                                                            class="menu2Link">
+                                                            Комплектующие </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/stupeni/"
+                                                            class="menu2Link">
+                                                            Ступени </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/terrasnaya_doska/"
+                                                            class="menu2Link">
+                                                            Террасная доска </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="allow-dropdown">
+                                                <a href="/catalog/dpk/fasady_i_komplektuyushchie/" class="menu2Link">
+                                                    Фасады и комплектующие <span
+                                                        class="dropdown btn-simple btn-micro"></span>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/komplektuyushchie/"
+                                                            class="menu2Link">
+                                                            Комплектующие </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/"
+                                                            class="menu2Link">
+                                                            Фасады </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="eChild allow-dropdown">
+                                <a href="/catalog/planken/" class="menuLink">
+                                    <span class="back"></span>
+                                    <span class="link-title">Планкен</span>
+                                    <span class="dropdown btn-simple btn-micro"></span>
+                                </a>
+                                <div class="drop">
+                                    <div class="limiter">
+                                        <ul class="nextColumn">
+                                            <li>
+                                                <a href="/catalog/planken/bereza/" class="menu2Link">
+                                                    Береза </a>
+                                            </li>
+                                            <li>
+                                                <a href="/catalog/planken/sosna/" class="menu2Link">
+                                                    Сосна </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="limiter">
+                <div id="breadcrumbs">
+                    <ul>
+                        <li itemscope itemtype="https://data-vocabulary.org/Breadcrumb"><a href="/"
+                                title="Главная страница" itemprop="url"><span itemprop="title">Главная
+                                    страница</span></a></li>
+                        <li><span class="arrow"> &bull; </span></li>
+                        <li itemscope itemtype="https://data-vocabulary.org/Breadcrumb"><a href="/personal/"
+                                title="Личный кабинет" itemprop="url"><span itemprop="title">Личный кабинет</span></a>
+                        </li>
+                        <li><span class="arrow"> &bull; </span></li>
+                        <li><span class="changeName">Содержимое корзины</span></li>
+                    </ul>
+                </div>
+                <h1>Корзина</h1>
+
+
+
+                <div id="personalCart" class="DwBasket">
+                    <div id="basketTopLine">
+                        <div id="tabsControl">
+                            <div class="item">Доступные действия:</div>
+                            <div class="item"><a href="/personal/cart/order/" id="scrollToOrder"
+                                    class="orderMove selected">Оформить заказ</a></div>
+                            <div class="item"><a href="/catalog/">Продолжить покупки</a></div>
+                            <div class="item"><a href="#" id="allClear" class="clearAllBasketItems">Очистить корзину</a>
+                            </div>
+                        </div>
+                        <div id="basketView">
+                            <div class="item">
+                                <span>Вид корзины: </span>
+                            </div>
+                            <div class="item">
+                                <a href="/personal/cart/?basketView=squares" class="squares selected"></a>
+                            </div>
+                            <div class="item">
+                                <a href="/personal/cart/?basketView=table" class="table"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="basketProductList">
+                        <div class="items productList">
+                            <div class="item product parent" data-product-iblock-id="16" data-id="363"
+                                data-cart-id="363">
+                                <div class="tabloid">
+                                    <div class="topSection">
+                                        <div class="column">
+                                            <span class="inStock label changeAvailable"><img
+                                                    src="/bitrix/templates/dresscodeV2/images/inStock.png"
+                                                    alt="В наличии" class="icon"><span>В наличии</span></span>
+                                        </div>
+                                        <div class="column">
+                                            <a href="#" class="delete" data-id="170"></a>
+                                        </div>
+                                    </div>
+                                    <div class="productTable">
+                                        <div class="productColImage">
+                                            <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html"
+                                                class="picture" target="_blank">
+                                                <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                    alt="Сайдинг 180-14-3000 с тиснением 3D, Венге (3м)">
+                                                <span class="getFastView" data-id="363">Быстрый просмотр</span>
+                                            </a>
+                                        </div>
+                                        <div class="productColText">
+                                            <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html"
+                                                class="name" target="_blank"><span class="middle">Сайдинг 180-14-3000 с
+                                                    тиснением 3D, Венге (3м)</span></a>
+                                            <a class="price">
+                                                <span class="priceContainer" data-price="870">870 руб.</span>
+                                                <s class="discount"><span class="discountContainer hidden">870
+                                                        руб.</span></s>
+                                            </a>
+                                            <div class="basketQty">
+                                                Кол-во: <a href="#" class="minus" data-id="170"></a>
+                                                <input name="qty" type="text" value="1" class="qty" data-id="170"
+                                                    data-ratio="1" />
+                                                <a href="#" class="plus" data-id="170"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="orderLine">
+                        <div id="sum">
+                            <span class="label hd">Всего товаров:</span>
+                            <span class="price hd countItems">1</span>
+                            <span class="label">Сумма:</span>
+                            <span class="price">
+                                <span class="basketSum">870 руб.</span>
+                            </span>
+                        </div>
+                        <form id="coupon" autocomplete="off">
+                            <input placeholder="Введите промокод" name="user" class="couponField"
+                                autocomplete="new-password"><input type="submit" value="Активировать"
+                                class="couponActivate">
+                        </form>
+                    </div>
+                    <div class="minimumPayment hidden">
+                        <div class="minimumPaymentLeft">
+                            <div class="paymentIcon"><img
+                                    src="/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/images/minOrder.png"
+                                    alt="" title=""></div>
+                            <div class="paymentMessage">
+                                <div class="paymentMessageHeading">
+                                    Минимальная сумма заказа: <span>0</span> </div>
+                                <div class="paymentMessageText">
+                                    Пожалуйста, дополните Ваш заказ, после этого вы сможете продолжить оформление
+                                    покупки. </div>
+                            </div>
+                        </div>
+                        <div class="minimumPaymentRight">
+                            <div class="paymentButtons">
+                                <div class="paymentButtonsMain">
+                                    <a href="/" class="btn-simple btn-small btn-border">Вернуться на главную</a>
+                                </div>
+                                <div class="paymentButtonsCatalog">
+                                    <a href="/catalog/" class="btn-simple btn-small">Перейти в каталог</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="giftContainer">
+
+                        <!--'start_frame_cache_sz16ux'-->
+                        <script>
+                            var giftParams = '{"HIDE_NOT_AVAILABLE":"N","PAGE_ELEMENT_COUNT":12,"LINE_ELEMENT_COUNT":12,"PRODUCT_PRICE_CODE":[],"CONVERT_CURRENCY":"N","HIDE_MEASURES":"N","CACHE_GROUPS":"Y","CURRENCY_ID":""}';
+                        </script>
+                        <!--'end_frame_cache_sz16ux'-->
+                    </div>
+                    <div id="order" class="DwBasketOrder orderContainer">
+                        <span class="title">Заполните пожалуйста Ваши данные для заказа</span>
+                        <table class="personSelectContainer">
+                            <tr class="hidden">
+                                <td><span>Тип плательщика</span></td>
+                                <td>
+                                    <label>Выберите тип плательщика</label>
+                                    <div class="dropDown">
+                                        <div class="dropDownSelected">Физическое лицо</div>
+                                        <div class="dropDownItems">
+                                            <div class="dropDownItem selected" data-value="1">Физическое лицо</div>
+                                        </div>
+                                        <select id="personSelect" class="personSelect">
+                                            <option value="1" data-id="1">Физическое лицо</option>
+                                        </select>
+                                    </div>
+                                    <div class="personTypeForModules hidden">
+                                        <input type="radio" name="PERSON_TYPE" value="1" data-id="1"
+                                            class="personTypeModules" checked>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <form enctype="multipart/form-data" class="orderForm active" id="orderForm_1" data-id="1">
+                            <table class="orderAreas active" data-person-id="1">
+
+
+                                <tr>
+                                    <td><span>Личные данные</span></td>
+                                    <td class="mainPropArea">
+                                        <ul class="userProp">
+                                            <li class="propItem">
+                                                <span class="label">Ф.И.О.*</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_1" value="Иванов Иван"
+                                                    data-required="Y" id="ORDER_PROP_1" data-prop-id="NtjHsA7"
+                                                    data-id="1" data-profile-name="Y" data-payer="Y" data-filtred="Y">
+                                            </li>
+                                            <li class="propItem">
+                                                <span class="label">E-Mail*</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_2" value="test_accrount111@mail.ru"
+                                                    data-required="Y" id="ORDER_PROP_2" data-prop-id="DzDAdzJ"
+                                                    data-id="2" data-mail="Y" data-filtred="Y">
+                                            </li>
+                                            <li class="propItem">
+                                                <span class="label">Телефон*</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_3" value="" data-required="Y"
+                                                    id="ORDER_PROP_3" data-prop-id="qXhCNcf" data-id="3"
+                                                    data-mobile="Y">
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>Доставка</span></td>
+                                    <td>
+                                        <div>
+                                            <div>
+                                                Стоимость доставки будет указана в электронном письме с подтверждением заказа.
+                                            </div>
+                                            <div>
+                                                Способ доставки можно изменить до этапа оплаты.
+                                            </div>
+                                        </div>
+                                        <span class="label">Доставка</span>
+                                        <div class="dropDown">
+                                            <div class="dropDownSelected">Доставка курьером 500 руб.</div>
+                                            <div class="dropDownItems">
+                                                <div class="dropDownItem selected" data-value="1">Доставка курьером 500
+                                                    руб.</div>
+                                                <div class="dropDownItem" data-value="2">Самовывоз 0 руб.</div>
+                                            </div>
+                                            <select class="deliverySelect" name="DEVIVERY_TYPE" data-default="1">
+                                                <option data-price="500" data-code="1" data-name="Доставка курьером"
+                                                    selected value="1">Доставка курьером 500 руб.</option>
+                                                <option data-price="0" data-code="2" data-name="Самовывоз" value="2">
+                                                    Самовывоз 0 руб.</option>
+                                            </select>
+                                        </div>
+                                        <div class="storeSelectContainer hidden">
+                                            <span class="label">Пункт самовывоза</span>
+                                            <div class="dropDown">
+                                                <div class="dropDownSelected"></div>
+                                                <div class="dropDownItems">
+                                                </div>
+                                                <select class="storeSelect" name="STORE">
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="extraServiceItems hidden">
+                                        </div>
+                                        <ul class="userProp">
+                                            <li data-property-id="7" class="propItem deliveryProps">
+                                                <span class="label">Адрес доставки*</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_7" value="" data-required="Y"
+                                                    id="ORDER_PROP_7" data-prop-id="rWexDil" data-id="7"
+                                                    data-address="Y">
+                                            </li>
+                                        </ul>
+                                        <div class="deliveryDescription">
+                                            Доставка осуществляется в течение дня в удобное для вас время. </div>
+                                        <div class="deliveryPeriod hidden">
+                                            <div class="deliveryPeriodLabel">Срок доставки:</div>
+                                            <div class="deliveryPeriodDescription">
+                                            </div>
+                                        </div>
+                                        <div id="bx-soa-delivery" class="deliveryModulesContainer">
+                                            <div class="bx-soa-pp-company-desc deliveryModulesContainerDesc"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>Данные для доставки</span></td>
+                                    <td class="mainPropArea">
+                                        <ul class="userProp">
+                                            <li class="propItem">
+                                                <span class="label">Индекс*</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_4" value="101000" data-required="Y"
+                                                    id="ORDER_PROP_4" data-prop-id="rZjEvXl" data-id="4" data-zip="Y">
+                                            </li>
+                                            <li class="propItem">
+                                                <span class="label">Местоположение*</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_6"
+                                                    value="Россия, Северо-Запад, Санкт-Петербург" data-last-id="269"
+                                                    data-last-value="Россия, Северо-Запад, Санкт-Петербург"
+                                                    data-required="Y" id="6" data-id="6" class="location"
+                                                    autocomplete="off" data-location="269">
+                                                <div class="locationSwitchContainer"></div>
+                                            </li>
+                                            <li class="propItem">
+                                                <span class="label">Город</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_5" value="Москва" data-required="N"
+                                                    id="ORDER_PROP_5" data-prop-id="sw8wY6X" data-id="5"
+                                                    data-filtred="Y">
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="orderAreas active" data-person-id="1">
+
+                                <tr>
+                                    <td>
+                                        <span>Оплата</span>
+                                    </td>
+                                    <td>
+                                        <span class="label">Оплата</span>
+                                        <div class="dropDown">
+                                            <div class="dropDownSelected">Картой на сайте</div>
+                                            <div class="dropDownItems">
+                                                <div class="dropDownItem selected" data-value="10">Картой на сайте</div>
+                                            </div>
+                                            <select class="paySelect" name="PAY_TYPE">
+                                                <option value="10">Картой на сайте</option>
+                                            </select>
+                                        </div>
+                                        <div class="payFromBudget hidden">
+                                            <input type="checkbox" value="Y" id="payFromBudget_1" name="payFromBudget"
+                                                class="budgetSwitch" data-account-balance="">
+                                            <label for="payFromBudget_1">Оплатить с личного счета: (Баланс: )</label>
+                                        </div>
+                                        <ul class="userProp">
+                                            <li data-property-id="7" class="propItem payProps hidden">
+                                                <span class="label">Адрес доставки*</span>
+                                                <label></label>
+                                                <input type="text" name="ORDER_PROP_7" value="" data-required="Y"
+                                                    id="ORDER_PROP_7" data-prop-id="CIUlAC4" data-id="7"
+                                                    data-address="Y">
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <span class="label">Комментарий к заказу</span>
+                                        <textarea name="comment" class="orderComment"></textarea>
+                                        <div class="personalInfoLabel">*Нажимая на кнопку оформить заказ, я даю согласие
+                                            на <a href="/personal-info/" class="pilink" target="_blank">обработку
+                                                персональных данных.</a></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="hidden" name="PERSON_TYPE" value="1">
+                        </form>
+                        <div class="orderLine bottom">
+                            <div id="sum">
+                                <a href="#" class="order orderMake" id="orderMake"><img
+                                        src="/bitrix/templates/dresscodeV2/images/order.png"> Оформить заказ</a>
+                                <span class="label hd">Всего товаров:</span> <span class="price hd countItems">1</span>
+                                <span class="label">Доставка:</span>
+                                <span class="price"><span class="deliverySum">500 руб.</span></span>
+                                <span class="label">К оплате:</span>
+                                <span class="price"><span class="orderSum">1&nbsp;370 руб.</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="basketError error1">
+                    <div class="basketErrorContainer">
+                        <div class="errorPicture"><img
+                                src="/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/images/error.jpg"
+                                alt="" title=""></div>
+                        <div class="errorHeading">Недостаточно товара</div>
+                        <a href="#" class="basketErrorClose errorClose"><span class="errorCloseLink"></span></a>
+                        <div class="errorMessage">Данного количества нет на складе</div>
+                        <a href="#" class="basketErrorClose btn-simple btn-small">Закрыть окно</a>
+                    </div>
+                </div>
+                <div class="basketError error2">
+                    <div class="basketErrorContainer">
+                        <div class="errorPicture"><img
+                                src="/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/images/error.jpg"
+                                alt="" title=""></div>
+                        <div class="errorHeading">Ошибка офомления заказа</div>
+                        <a href="#" class="basketErrorClose errorClose"><span class="errorCloseLink"></span></a>
+                        <div class="errorMessage">Не удалось оформить заказ!</div>
+                        <a href="#" class="basketErrorClose btn-simple btn-small">Закрыть окно</a>
+                    </div>
+                </div>
+                <div class="basketError error3">
+                    <div class="basketErrorContainer">
+                        <div class="errorPicture"><img
+                                src="/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default/images/error.jpg"
+                                alt="" title=""></div>
+                        <div class="errorHeading">Ошибка активации купона</div>
+                        <a href="#" class="basketErrorClose errorClose"><span class="errorCloseLink"></span></a>
+                        <div class="errorMessage">Купон не найден!</div>
+                        <a href="#" class="basketErrorClose btn-simple btn-small">Закрыть окно</a>
+                    </div>
+                </div>
+
+                <script>
+                    var basketLang = {
+                        "max-quantity": 'Данного количества нет на складе',
+                        "empty-paysystems": 'Платежные системы не найдены',
+                        "empty-deliveries": 'Службы доставки не найдены',
+                    };
+                    // var ajaxDir = "/bitrix/components/dresscode/sale.basket.basket";
+                    var ajaxDir = "/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default";
+                    var ajaxCharset = "UTF-8";
+                    var siteId = "s1";
+                    var siteCurrency = { "CURRENCY": "RUB", "LID": "ru", "FORMAT_STRING": "# \u0440\u0443\u0431.", "FULL_NAME": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b\u044c", "DEC_POINT": ".", "THOUSANDS_SEP": "\u0026nbsp;", "DECIMALS": 2, "THOUSANDS_VARIANT": "B", "HIDE_ZERO": "Y", "CREATED_BY": null, "DATE_CREATE": "2020-08-11 14:07:53", "MODIFIED_BY": "1", "TIMESTAMP_X": "2020-08-11 16:00:03", "CODE": "RUB", "SEPARATORS": { "N": "", "D": ".", "C": ",", "S": " ", "B": "\u0026nbsp;" } };
+                    var basketParams = { "HIDE_MEASURES": "N", "BASKET_PICTURE_WIDTH": "220", "BASKET_PICTURE_HEIGHT": "200", "HIDE_NOT_AVAILABLE": "N", "PRODUCT_PRICE_CODE": [], "GIFT_CONVERT_CURRENCY": "N", "PATH_TO_PAYMENT": "payment.php", "CACHE_TYPE": "A", "CACHE_TIME": "36000000", "COMPONENT_TEMPLATE": ".default", "MIN_SUM_TO_PAYMENT": 0, "REGISTER_USER": "Y", "PART_STORES_AVAILABLE": "\u0427\u0430\u0441\u0442\u044c \u043f\u043e\u0437\u0438\u0446\u0438\u0439 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "ALL_STORES_AVAILABLE": "\u0412\u0441\u0435 \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438", "NO_STORES_AVAILABLE": "\u041d\u0435\u0442 \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438", "DISABLE_FAST_ORDER": "Y", "ORDER_CONFIRM_BY_SMS_PAYSYSTEMS": [], "ORDER_CONFIRM_BY_SMS_CODE": "N", "LAZY_LOAD_PICTURES": "N", "SEND_SMS_MESSAGE": "N", "MASKED_FORMAT": "", "USE_MASKED": "N" };
+                    var basketTemplatePath = "/bitrix/templates/dresscodeV2/components/dresscode/sale.basket.basket/.default";
+                    var maskedUse = "N";
+                    var sendSms = "N";
+                    var maskedFormat = "";
+                </script><br />
+            </div>
+        </div>
+
+        <div id="footerTabsCaption">
+            <div class="wrapper">
+                <div class="items">
+                    <div class="item"><a href="#">Самые продаваемые товары</a></div>
+                    <div class="item"><a href="#">Просмотренные товары</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="footerTabs">
+            <div class="wrapper">
+                <div class="items">
+                    <div class="tab item">
+                        <div id="topProduct">
+                            <div class="wrap">
+                                <ul class="slideBox productList">
+                                    <li>
+                                        <div class="item product sku" id="bx_1762928987_358" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="358" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/dpk/zabornye_ogruzhdeniya_i_komplektuyushchie/zabornye_ograzhdeniya/stolb_ograzhdeniya_100_100_3000_brashirovannyy_venge_3m.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Столб ограждения, 100-100-3000, брашированный, Венге (3м)"
+                                                                title="Столб ограждения, 100-100-3000, брашированный, Венге (3м)">
+                                                            <span class="getFastView" data-id="358">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/dpk/zabornye_ogruzhdeniya_i_komplektuyushchie/zabornye_ograzhdeniya/stolb_ograzhdeniya_100_100_3000_brashirovannyy_venge_3m.html"
+                                                            class="name"><span class="middle">Столб ограждения,
+                                                                100-100-3000, брашированный, Венге (3м)</span></a>
+                                                        <a class="price">1&nbsp;743 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="item product sku" id="bx_4028463329_346" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="346" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/komplektuyushchie/klyaymer_n8.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Кляймер Н8" title="Кляймер Н8">
+                                                            <span class="getFastView" data-id="346">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/komplektuyushchie/klyaymer_n8.html"
+                                                            class="name"><span class="middle">Кляймер Н8</span></a>
+                                                        <a class="price">20 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="item product sku" id="bx_2266646647_364" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="364" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/startovyy_profil_dlya_saydinga_40_20_3000_venge_3m.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Стартовый профиль для сайдинга 40-20-3000 Венге (3м)"
+                                                                title="Стартовый профиль для сайдинга 40-20-3000 Венге (3м)">
+                                                            <span class="getFastView" data-id="364">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/startovyy_profil_dlya_saydinga_40_20_3000_venge_3m.html"
+                                                            class="name"><span class="middle">Стартовый профиль для
+                                                                сайдинга 40-20-3000 Венге (3м)</span></a>
+                                                        <a class="price">266 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="item product sku" id="bx_427744724_286" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="286" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/planken/bereza/planken_termomodifitsirovannyy_pryamoy_bereza_a_v_sort_20_105_2400.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Планкен термомодифицированный, прямой, береза (А-В сорт, 20-105-2400)"
+                                                                title="Планкен термомодифицированный, прямой, береза (А-В сорт, 20-105-2400)">
+                                                            <span class="getFastView" data-id="286">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/planken/bereza/planken_termomodifitsirovannyy_pryamoy_bereza_a_v_sort_20_105_2400.html"
+                                                            class="name"><span class="middle">Планкен
+                                                                термомодифицированный, прямой, береза (А-В сорт,
+                                                                20-105-2400)</span></a>
+                                                        <a class="price">3&nbsp;906 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="item product sku" id="bx_1853484354_363" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="363" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Сайдинг 180-14-3000 с тиснением 3D, Венге (3м)"
+                                                                title="Сайдинг 180-14-3000 с тиснением 3D, Венге (3м)">
+                                                            <span class="getFastView" data-id="363">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html"
+                                                            class="name"><span class="middle">Сайдинг 180-14-3000 с
+                                                                тиснением 3D, Венге (3м)</span></a>
+                                                        <a class="price">870 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <div class="item product sku" id="bx_4151360760_317" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="317" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/terrasnaya_doska/doska_terrasnaya_termomodifitsirovannaya_velvet_bereza_otkrytyy_krepezh_a_v_sort_20_135_3000.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Доска террасная термомодифицированная, вельвет, береза, открытый крепеж (А-В сорт, 20-135-3000)"
+                                                                title="Доска террасная термомодифицированная, вельвет, береза, открытый крепеж (А-В сорт, 20-135-3000)">
+                                                            <span class="getFastView" data-id="317">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/dpk/terrasnaya_doska_i_komplektuyushchie/terrasnaya_doska/doska_terrasnaya_termomodifitsirovannaya_velvet_bereza_otkrytyy_krepezh_a_v_sort_20_135_3000.html"
+                                                            class="name"><span class="middle">Доска террасная
+                                                                термомодифицированная, вельвет, береза, открытый крепеж
+                                                                (А-В сорт, 20-135-3000)</span></a>
+                                                        <a class="price">6&nbsp;278 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                                <a href="#" class="topBtnLeft"></a>
+                                <a href="#" class="topBtnRight"></a>
+                            </div>
+                        </div>
+                        <script>
+                            $("#topProduct").dwCarousel({
+                                leftButton: ".topBtnLeft",
+                                rightButton: ".topBtnRight",
+                                countElement: 8,
+                                resizeElement: true,
+                                resizeAutoParams: {
+                                    10240: 5,
+                                    5120: 5,
+                                    2560: 5,
+                                    1920: 5,
+                                    1700: 5,
+                                    1500: 4,
+                                    1200: 3,
+                                    850: 2
+                                }
+                            });
+                        </script>
+                    </div>
+
+                    <div class="tab item">
+                        <div id="viewedProduct">
+                            <div class="wrap">
+                                <ul class="slideBox productList">
+                                    <li>
+                                        <div class="item product sku" id="bx_2155318382_286" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="286" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/planken/bereza/planken_termomodifitsirovannyy_pryamoy_bereza_a_v_sort_20_105_2400.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Планкен термомодифицированный, прямой, береза (А-В сорт, 20-105-2400)"
+                                                                title="Планкен термомодифицированный, прямой, береза (А-В сорт, 20-105-2400)">
+                                                            <span class="getFastView" data-id="286">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/planken/bereza/planken_termomodifitsirovannyy_pryamoy_bereza_a_v_sort_20_105_2400.html"
+                                                            class="name"><span class="middle">Планкен
+                                                                термомодифицированный, прямой, береза (А-В сорт,
+                                                                20-105-2400)</span></a>
+                                                        <a class="price">3&nbsp;906 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item product sku" id="bx_281580031_366" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="366" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/dpk/gryadochnaya_doska/gryadochnaya_doska/doska_150_25_3000_gryadochnaya_s_tisneniem_3d_korichnyy_3m.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Доска 150-25-3000 грядочная с тиснением 3D Коричный (3м)"
+                                                                title="Доска 150-25-3000 грядочная с тиснением 3D Коричный (3м)">
+                                                            <span class="getFastView" data-id="366">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/dpk/gryadochnaya_doska/gryadochnaya_doska/doska_150_25_3000_gryadochnaya_s_tisneniem_3d_korichnyy_3m.html"
+                                                            class="name"><span class="middle">Доска 150-25-3000
+                                                                грядочная с тиснением 3D Коричный (3м)</span></a>
+                                                        <a class="price">935 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item product sku" id="bx_1741660521_363" data-product-iblock-id="16"
+                                            data-from-cache="N" data-convert-currency="N" data-currency-id=""
+                                            data-product-id="363" data-iblock-id="17" data-prop-id="101"
+                                            data-product-width="220" data-product-height="200" data-hide-measure="N"
+                                            data-currency="RUB" data-hide-not-available="N" data-price-code="BASE">
+                                            <div class="tabloid">
+                                                <a href="#" class="removeFromWishlist" data-id=""></a>
+                                                <div class="rating">
+                                                    <i class="m" style="width:0%"></i>
+                                                    <i class="h"></i>
+                                                </div>
+                                                <div class="productTable">
+                                                    <div class="productColImage">
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html"
+                                                            class="picture">
+                                                            <img src="/bitrix/templates/dresscodeV2/images/empty.png"
+                                                                alt="Сайдинг 180-14-3000 с тиснением 3D, Венге (3м)"
+                                                                title="Сайдинг 180-14-3000 с тиснением 3D, Венге (3м)">
+                                                            <span class="getFastView" data-id="363">Быстрый
+                                                                просмотр</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="productColText">
+                                                        <a href="/catalog/dpk/fasady_i_komplektuyushchie/fasady/sayding_180_14_3000_s_tisneniem_3d_venge_3m.html"
+                                                            class="name"><span class="middle">Сайдинг 180-14-3000 с
+                                                                тиснением 3D, Венге (3м)</span></a>
+                                                        <a class="price">870 руб. </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="viewedBtnLeft"></a>
+                                <a href="#" class="viewedBtnRight"></a>
+                            </div>
+                        </div>
+                        <script>
+                            $("#viewedProduct").dwCarousel({
+                                leftButton: ".viewedBtnLeft",
+                                rightButton: ".viewedBtnRight",
+                                countElement: 8,
+                                resizeElement: true,
+                                resizeAutoParams: {
+                                    10240: 5,
+                                    5120: 5,
+                                    2560: 5,
+                                    1920: 5,
+                                    1700: 5,
+                                    1500: 4,
+                                    1200: 3,
+                                    850: 2
+                                }
+                            });
+                        </script>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--'start_frame_cache_es4Hjc'-->
+        <div id="bigdata_recommended_products_Zz2YMH"></div>
+
+        <script>
+            BX.ready(function () {
+                bx_rcm_get_from_cloud(
+                    'bigdata_recommended_products_Zz2YMH',
+                    { 'uid': '327650c89058d3f4c839c044b71c4694', 'aid': '260b84c5f191847e1eee7e0747ea417c', 'count': '30', 'op': 'recommend', 'ib': '16' },
+                    {
+                        'parameters': 'YTo1MTp7czoxODoiQ09NUE9ORU5UX1RFTVBMQVRFIjtzOjg6Ii5kZWZhdWx0IjtzOjg6IlJDTV9UWVBFIjtzOjg6InBlcnNvbmFsIjtzOjI6IklEIjtOO3M6MTE6IklCTE9DS19UWVBFIjtzOjc6ImNhdGFsb2ciO3M6OToiSUJMT0NLX0lEIjtzOjI6IjE2IjtzOjE3OiJTSE9XX0ZST01fU0VDVElPTiI7czoxOiJOIjtzOjEwOiJTRUNUSU9OX0lEIjtzOjA6IiI7czoxMjoiU0VDVElPTl9DT0RFIjtzOjA6IiI7czoxODoiU0VDVElPTl9FTEVNRU5UX0lEIjtzOjA6IiI7czoyMDoiU0VDVElPTl9FTEVNRU5UX0NPREUiO3M6MDoiIjtzOjU6IkRFUFRIIjtzOjA6IiI7czoxODoiSElERV9OT1RfQVZBSUxBQkxFIjtzOjE6Ik4iO3M6MjE6IlNIT1dfRElTQ09VTlRfUEVSQ0VOVCI7czoxOiJZIjtzOjIwOiJQUk9EVUNUX1NVQlNDUklQVElPTiI7czoxOiJOIjtzOjk6IlNIT1dfTkFNRSI7czoxOiJZIjtzOjEwOiJTSE9XX0lNQUdFIjtzOjE6IlkiO3M6MTI6Ik1FU1NfQlROX0JVWSI7czowOiIiO3M6MTU6Ik1FU1NfQlROX0RFVEFJTCI7czowOiIiO3M6MTg6Ik1FU1NfQlROX1NVQlNDUklCRSI7czowOiIiO3M6MTg6IlBBR0VfRUxFTUVOVF9DT1VOVCI7czoyOiIxMCI7czoxODoiTElORV9FTEVNRU5UX0NPVU5UIjtzOjE6IjMiO3M6MTQ6IlRFTVBMQVRFX1RIRU1FIjtzOjQ6ImJsdWUiO3M6MTA6IkRFVEFJTF9VUkwiO3M6MDoiIjtzOjEwOiJDQUNIRV9UWVBFIjtzOjE6IlkiO3M6MTA6IkNBQ0hFX1RJTUUiO3M6ODoiMzYwMDAwMDAiO3M6MTI6IkNBQ0hFX0dST1VQUyI7czoxOiJZIjtzOjE0OiJTSE9XX09MRF9QUklDRSI7czoxOiJOIjtzOjEwOiJQUklDRV9DT0RFIjthOjE6e2k6MDtzOjQ6IkJBU0UiO31zOjE2OiJTSE9XX1BSSUNFX0NPVU5UIjtzOjE6IjEiO3M6MTc6IlBSSUNFX1ZBVF9JTkNMVURFIjtzOjE6IlkiO3M6MTY6IkNPTlZFUlRfQ1VSUkVOQ1kiO3M6MToiWSI7czoxMDoiQkFTS0VUX1VSTCI7czoyMDoiL3BlcnNvbmFsL2Jhc2tldC5waHAiO3M6MTU6IkFDVElPTl9WQVJJQUJMRSI7czoxMToiYWN0aW9uX2NiZHAiO3M6MTk6IlBST0RVQ1RfSURfVkFSSUFCTEUiO3M6MjoiaWQiO3M6MjU6IlBST0RVQ1RfUVVBTlRJVFlfVkFSSUFCTEUiO3M6MDoiIjtzOjI0OiJBRERfUFJPUEVSVElFU19UT19CQVNLRVQiO3M6MToiWSI7czoyMjoiUFJPRFVDVF9QUk9QU19WQVJJQUJMRSI7czo0OiJwcm9wIjtzOjI2OiJQQVJUSUFMX1BST0RVQ1RfUFJPUEVSVElFUyI7czoxOiJOIjtzOjIwOiJVU0VfUFJPRFVDVF9RVUFOVElUWSI7czoxOiJOIjtzOjE2OiJTSE9XX1BST0RVQ1RTXzE3IjtzOjE6IlkiO3M6MTY6IlBST1BFUlRZX0NPREVfMTciO2E6Mjp7aTowO3M6MDoiIjtpOjE7czowOiIiO31zOjE4OiJDQVJUX1BST1BFUlRJRVNfMTciO2E6Mjp7aTowO3M6MDoiIjtpOjE7czowOiIiO31zOjIzOiJBRERJVElPTkFMX1BJQ1RfUFJPUF8xNyI7czoxMDoiTU9SRV9QSE9UTyI7czoxMzoiTEFCRUxfUFJPUF8xNyI7czoxOiItIjtzOjE2OiJQUk9QRVJUWV9DT0RFXzE4IjthOjI6e2k6MDtzOjA6IiI7aToxO3M6MDoiIjt9czoxODoiQ0FSVF9QUk9QRVJUSUVTXzE4IjthOjI6e2k6MDtzOjA6IiI7aToxO3M6MDoiIjt9czoyMzoiQURESVRJT05BTF9QSUNUX1BST1BfMTgiO3M6MTA6Ik1PUkVfUEhPVE8iO3M6MTk6Ik9GRkVSX1RSRUVfUFJPUFNfMTgiO2E6MDp7fXM6MTE6IkNVUlJFTkNZX0lEIjtzOjM6IlJVQiI7czoxNzoiUkNNX0NVUl9CQVNFX1BBR0UiO3M6MTU6Ii9wZXJzb25hbC9jYXJ0LyI7czoxNzoiVU5JUV9DT01QT05FTlRfSUQiO3M6MzU6ImJpZ2RhdGFfcmVjb21tZW5kZWRfcHJvZHVjdHNfWnoyWU1IIjt9.f755be5c10b5f25c95936b699d1a8fb93ae307624fbe4b9cced6238568752b28',
+                        'template': '.default.9f32ac1efa68a808a5db60d20c228bb5ef99e2664be2824c0fe85657959c9763',
+                        'site_id': 's1',
+                        'rcm': 'yes'
+                    }
+                );
+            });
+        </script>
+        <!--'end_frame_cache_es4Hjc'-->
+        <div id="footer" class="variant_4">
+            <div class="fc">
+                <div class="limiter">
+                    <div id="rowFooter">
+                        <div id="leftFooter">
+                            <div class="footerRow">
+                                <div class="column">
+                                    <span class="heading">Каталог</span>
+                                    <ul class="footerMenu">
+
+                                        <li><a href="/catalog/dpk/">ДПК</a></li>
+
+
+                                        <li><a href="/catalog/planken/">Планкен</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <span class="heading">Наши предложения</span>
+                                    <ul class="footerMenu">
+
+                                        <li><a href="/new/">Новинки</a></li>
+
+
+                                        <li><a href="/popular/">Популярные товары</a></li>
+
+
+                                        <li><a href="/sale/">Распродажи и скидки</a></li>
+
+
+                                        <li><a href="/recommend/">Рекомендуемые товары</a></li>
+
+
+                                        <li><a href="/discount/">Уцененные товары</a></li>
+
+                                    </ul>
+
+                                </div>
+                                <div class="column">
+                                    <span class="heading">Помощь и сервисы</span>
+                                    <ul class="footerMenu">
+
+                                        <li><a href="/about/">О компании</a></li>
+
+
+                                        <li><a href="/o-tovare/">О товаре</a></li>
+
+
+                                        <li><a href="/proizvodstvo/">Производство</a></li>
+
+
+                                        <li><a href="/about/delivery/">Доставка</a></li>
+
+
+                                        <li><a href="/oplata/">Оплата</a></li>
+
+
+                                        <li><a href="/blog/">Примеры работ</a></li>
+
+
+                                        <li><a href="/services/">Услуги</a></li>
+
+
+                                        <li><a href="/news/">Новости</a></li>
+
+
+                                        <li><a href="/prices-info/">Оптовикам</a></li>
+
+
+                                        <li><a href="/reviews/">Отзывы</a></li>
+
+
+                                        <li><a href="/dlya-yuridicheskikh-lits/">Для юридических лиц</a></li>
+
+
+                                        <li><a href="/about/contacts/">Контакты</a></li>
+
+
+                                        <li><a href="/politika-konfidentsialnosti/">Политика конфиденциальности</a></li>
+
+
+                                        <li><a href="/polzovatelskoe-soglashenie/">Пользовательское соглашение</a></li>
+
+
+                                        <li><a href="/rekvizity/">Реквизиты </a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="rightFooter">
+                            <table class="rightTable">
+                                <tr class="footerRow">
+                                    <td class="leftColumn">
+                                        <div class="logo">
+                                            <a href="/"><img
+                                                    src="/bitrix/templates/dresscodeV2/images/logo_groentec.svg"
+                                                    alt=""></a>
+                                        </div>
+                                        <p>Copyright 2020 © groentec.ru - интернет-магазин стройматериалов. Все права
+                                            защищены.</p>
+                                        <p class="hr">г. Санкт-Петербург, улица Оптиков, д.4к2 <a
+                                                href="/about/contacts/" class="showMap">Посмотреть на карте</a></p>
+                                    </td>
+                                    <td class="rightColumn">
+                                        <div class="wrap">
+                                            <div class="telephone">+7 (800) 500-05-15</div>
+                                            <div class="email">Email: <a
+                                                    href="mailto:info@groentec.ru">info@groentec.ru</a></div>
+                                            <ul class="list">
+                                                <li>График работы Пн-Пт: с 8:00 до 18:00 Сб-Вс: Выходной</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerBottom">
+                <div class="limiter">
+                    <div class="creator">
+                        <a href="https://dw24.su/"><img src="/bitrix/templates/dresscodeV2/images/dwW.png"
+                                alt="Digital Web"></a>
+                    </div>
+                    <div class="social">
+                        <noindex>
+                            <ul class="sn">
+                                <li><a href="https://vk.com/feed" class="vk" rel="nofollow"></a></li>
+                                <li><a href="https://www.facebook.com/" class="fb" rel="nofollow"></a></li>
+                                <li><a href="https://ok.ru/" class="od" rel="nofollow"></a></li>
+                                <li><a href="https://twitter.com/" class="tw" rel="nofollow"></a></li>
+                                <li><a href="https://www.instagram.com/" class="go" rel="nofollow"></a></li>
+                                <li><a href="https://www.youtube.com/" class="yo" rel="nofollow"></a></li>
+                            </ul>
+                        </noindex>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerLine">
+            <div class="limiter">
+                <div class="col">
+                    <div class="item">
+                        <a href="/callback/" class="callback"><span class="icon"></span> Обратная связь</a>
+                    </div>
+                    <div class="item">
+                        <a href="tel:+7 (800) 500-05-15" class="telephone">+7 (800) 500-05-15</a>
+                    </div>
+                    <div class="item">
+                        <a href="mailto:info@groentec.ru" class="email">info@groentec.ru</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="flushFooterCart">
+                        <!--'start_frame_cache_T0kNhm'-->
+
+                        <div class="item">
+                            <a class="compare"><span class="icon"></span><span class="textLabel">Сравнение</span><span
+                                    class="mark">0</span></a>
+                        </div>
+                        <div class="item">
+                            <a class="wishlist"><span class="icon"></span><span class="textLabel">Избранное</span><span
+                                    class="mark">0</span></a>
+                        </div>
+                        <div class="item">
+                            <a href="/personal/cart/" class="cart active"><span class="icon"></span><span
+                                    class="textLabel">Корзина</span><span class="mark">1</span></a>
+                        </div>
+                        <!--'end_frame_cache_T0kNhm'-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="overlap"></div>
+
+
+    <div id="appFastBuy" data-load="/bitrix/templates/dresscodeV2/images/picLoad.gif">
+        <div id="appFastBuyContainer">
+            <div class="heading">Купить в один клик <a href="#" class="close closeWindow"></a></div>
+            <div class="container" id="fastBuyOpenContainer">
+                <div class="column">
+                    <div id="fastBuyPicture"><a href="#" class="url"><img
+                                src="/bitrix/templates/dresscodeV2/images/picLoad.gif" alt="" class="picture"></a></div>
+                    <div id="fastBuyName"><a href="" class="name url"><span class="middle"></span></a></div>
+                    <div id="fastBuyPrice" class="price"></div>
+                </div>
+                <div class="column">
+                    <div class="title">Заполните данные для заказа</div>
+                    <form action="/callback/" id="fastBuyForm" method="GET">
+                        <input name="id" type="hidden" id="fastBuyFormId" value="">
+                        <input name="act" type="hidden" id="fastBuyFormAct" value="fastBack">
+                        <input name="SITE_ID" type="hidden" id="fastBuyFormSiteId" value="s1">
+                        <div class="formLine"><input name="name" type="text" placeholder="Имя*" value=""
+                                id="fastBuyFormName"></div>
+                        <div class="formLine"><input name="phone" type="text" placeholder="Телефон*" value=""
+                                id="fastBuyFormTelephone"></div>
+                        <div class="formLine"><textarea name="message" cols="30" rows="10" placeholder="Сообщение"
+                                id="fastBuyFormMessage"></textarea></div>
+                        <div class="formLine"><input type="checkbox" name="personalInfoFastBuy"
+                                id="personalInfoFastBuy"><label for="personalInfoFastBuy">Я согласен на <a
+                                    href="/personal-info/" class="pilink">обработку персональных данных.</a>*</label>
+                        </div>
+                        <div class="formLine"><a href="#" id="fastBuyFormSubmit"><img
+                                    src="/bitrix/templates/dresscodeV2/images/incart.png" alt="Купить в один клик">
+                                Купить в один клик</a></div>
+                    </form>
+                </div>
+            </div>
+            <div id="fastBuyResult">
+                <div id="fastBuyResultTitle"></div>
+                <div id="fastBuyResultMessage"></div>
+                <a href="" id="fastBuyResultClose" class="closeWindow">Закрыть окно</a>
+            </div>
+            <script>
+                $(function () {
+                    $("#fastBuyFormTelephone").mask("");
+                });
+            </script>
+        </div>
+    </div>
+    <div id="requestPrice" data-load="/bitrix/templates/dresscodeV2/images/picLoad.gif">
+        <div id="requestPriceContainer">
+            <div class="requestPriceHeading">Запросить стоимость товара <a href="#" class="close closeWindow"></a></div>
+            <div class="requstProductContainer">
+                <div class="productColumn">
+                    <div class="productImageBlock">
+                        <a href="#" class="requestPriceUrl" target="_blank"><img
+                                src="/bitrix/templates/dresscodeV2/images/picLoad.gif" alt=""
+                                class="requestPricePicture"></a>
+                    </div>
+                    <div class="productNameBlock">
+                        <a href="#" class="productUrl requestPriceUrl" target="_blank">
+                            <span class="middle">Загрузка товара</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="formColumn">
+                    <div class="requestPriceFormHeading">Заполните данные для запроса цены</div>
+                    <form id="requestPriceForm" method="GET">
+                        <input type="text" name="name" value="" placeholder="Имя" id="requestPriceFormName">
+                        <input type="text" name="telephone" value="" data-required="Y" placeholder="Телефон*"
+                            id="requestPriceFormTelephone">
+                        <input type="hidden" name="productID" value="" id="requestPriceProductID">
+                        <input name="id" type="hidden" id="requestPriceFormId" value="">
+                        <input name="act" type="hidden" id="requestPriceFormAct" value="requestPrice">
+                        <input name="SITE_ID" type="hidden" id="requestPriceFormSiteId" value="s1">
+                        <textarea name="message" placeholder="Сообщение"></textarea>
+                        <div class="personalInfoRequest"><input type="checkbox" name="personalInfoRequest"
+                                id="personalInfoRequest"><label for="personalInfoRequest">Я согласен на <a
+                                    href="/personal-info/" class="pilink">обработку персональных данных.</a>*</label>
+                        </div>
+                        <a href="#" id="requestPriceSubmit"><img src="/bitrix/templates/dresscodeV2/images/request.png"
+                                alt="Запросить цену"> Запросить цену</a>
+                    </form>
+                </div>
+            </div>
+            <div id="requestPriceResult">
+                <div id="requestPriceResultTitle"></div>
+                <div id="requestPriceResultMessage"></div>
+                <a href="" id="requestPriceResultClose" class="closeWindow">Закрыть окно</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var subscribeOnlineAjaxDir = "/bitrix/components/dresscode/catalog.product.subscribe.online";
+        var subscribeOnlineLang = {
+            add: "Подписаться",
+            delete: "Отписаться"
+        }
+    </script>
+
+
+
+
+
+    <div id="upButton">
+        <a href="#"></a>
+    </div>
+
+    <script>
+        var ajaxPath = "/ajax.php";
+        var SITE_DIR = "/";
+        var SITE_ID = "s1";
+        var TEMPLATE_PATH = "/bitrix/templates/dresscodeV2";
+    </script>
+
+    <script>
+        var LANG = {
+            BASKET_ADDED: "В корзине",
+            WISHLIST_ADDED: "Добавлено",
+            ADD_COMPARE_ADDED: "Добавлено",
+            ADD_CART_LOADING: "Загрузка",
+            ADD_BASKET_DEFAULT_LABEL: "В корзину",
+            ADDED_CART_SMALL: "В корзине",
+            CATALOG_AVAILABLE: "В наличии",
+            GIFT_PRICE_LABEL: "Бесплатно",
+            CATALOG_ON_ORDER: "Под заказ",
+            CATALOG_NO_AVAILABLE: "Недоступно",
+            FAST_VIEW_PRODUCT_LABEL: "Быстрый просмотр",
+            CATALOG_ECONOMY: "Экономия: ",
+            WISHLIST_SENDED: "Отправлено",
+            REQUEST_PRICE_LABEL: "Цена по запросу",
+            REQUEST_PRICE_BUTTON_LABEL: "Запросить цену",
+            ADD_SUBSCRIBE_LABEL: "Подписаться",
+            REMOVE_SUBSCRIBE_LABEL: "Отписаться"
+        };
+    </script>
+
+    <script>
+        var globalSettings = {
+            "TEMPLATE_USE_AUTO_DEACTIVATE_PRODUCTS": 'N',
+            "TEMPLATE_USE_AUTO_AVAILABLE_PRODUCTS": 'N',
+            "TEMPLATE_COLLECTION_IBLOCK_ID": '1',
+            "TEMPLATE_MASKED_INPUT_FORMAT": '+7 (999) 999-99-99',
+            "TEMPLATE_USE_AUTO_SAVE_PRICE": 'N',
+            "TEMPLATE_USE_AUTO_COLLECTION": 'N',
+            "TEMPLATE_WATERMARK_POSITION": 'topleft',
+            "TEMPLATE_USE_AUTO_WATERMARK": 'N',
+            "TEMPLATE_CATALOG_MENU_COLOR": 'default',
+            "TEMPLATE_ODNOKLASSNIKI_LINK": 'https://ok.ru/',
+            "TEMPLATE_WORKING_TIME_SHORT": 'с 8:00 до 18:00 по будням',
+            "TEMPLATE_FOOTER_LINE_COLOR": 'default',
+            "TEMPLATE_PRODUCT_IBLOCK_ID": '16',
+            "TEMPLATE_USE_MASKED_INPUT": 'N',
+            "TEMPLATE_SUBHEADER_COLOR": 'default',
+            "TEMPLATE_BRAND_IBLOCK_ID": '1',
+            "TEMPLATE_WATERMARK_TYPE": 'image',
+            "TEMPLATE_WATERMARK_SIZE": 'big',
+            "TEMPLATE_TOP_MENU_FIXED": 'Y',
+            "TEMPLATE_USE_AUTO_BRAND": 'N',
+            "TEMPLATE_FOOTER_VARIANT": '4',
+            "TEMPLATE_WATERMARK_FILL": 'exact',
+            "TEMPLATE_INSTAGRAM_LINK": 'https://www.instagram.com/',
+            "TEMPLATE_SKU_IBLOCK_ID": '17',
+            "TEMPLATE_SLIDER_HEIGHT": 'default',
+            "TEMPLATE_FACEBOOK_LINK": 'https://www.facebook.com/',
+            "TEMPLATE_PANELS_COLOR": 'white',
+            "TEMPLATE_HEADER_COLOR": 'theme',
+            "TEMPLATE_WORKING_TIME": 'График работы Пн-Пт: с 8:00 до 18:00 Сб-Вс: Выходной',
+            "TEMPLATE_YOUTUBE_LINK": 'https://www.youtube.com/',
+            "TEMPLATE_TWITTER_LINK": 'https://twitter.com/',
+            "TEMPLATE_FULL_ADDRESS": 'г. Санкт-Петербург, улица Оптиков, д.4к2',
+            "TEMPLATE_PRICE_CODES": 'BASE',
+            "TEMPLATE_HEADER_TYPE": 'type1',
+            "TEMPLATE_TELEPHONE_1": '+7 (800) 500-05-15',
+            "TEMPLATE_THEME_NAME": 'custom',
+            "TEMPLATE_AUTH_TYPE": 'PASS',
+            "TEMPLATE_COPYRIGHT": 'Copyright 2020 © groentec.ru - интернет-магазин стройматериалов. Все права защищены.',
+            "TEMPLATE_EMAIL_1": 'info@groentec.ru',
+            "TEMPLATE_VK_LINK": 'https://vk.com/feed',
+            "TEMPLATE_ADDRESS": 'Московский пр. д 91',
+            "TEMPLATE_HEADER": 'header5',
+        }
+    </script>
+
+</body>
+
+</html>

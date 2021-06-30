@@ -2510,7 +2510,7 @@ input[name="BuyButton"]{
 }
 
 #subHeader5 #logo img{
-	max-height: 112px;
+	max-height: 80px;
 }
 
 #subHeader5 .subTable{
@@ -5063,16 +5063,17 @@ input[name="BuyButton"]{
 }
 
 #mainMenu .drop .nextColumn{
+	display:flex;
+	flex-direction:row;
 	line-height: 21px;
 	list-style: none;
 	float: left;
-	width: 20%;
 	padding: 0;
 	margin: 0;
 }
 
 #mainMenu .drop .nextColumn > li{
-	margin-top: 12px;
+	margin-top: 0px;
 	display: block;
 }
 
@@ -5285,78 +5286,6 @@ input[name="BuyButton"]{
 	#mainMenu li li + .allow-dropdown{
 		display: none;
 	}*/
-
-}
-/* End */
-
-
-/* Start:/bitrix/templates/dresscodeV2/components/bitrix/breadcrumb/.default/style.css?15906774411382*/
-#breadcrumbs{
-	margin-bottom: 12px;
-	line-height: 21px;
-	margin-top: 24px;
-	overflow: hidden;
-	font-size: 12px;
-}
-
-#breadcrumbs ul{
-	overflow: hidden;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-#breadcrumbs ul li{
-	vertical-align: middle;
-	display: inline-block;
-}
-
-#breadcrumbs ul li a{
-	text-decoration: none;
-	display: inline-block;
-	line-height: 21px;
-}
-
-#breadcrumbs .arrow{
-	vertical-align: middle;
-	display: inline-block;
-	font-family: arial;
-	font-size: 18px;
-	margin: 0 12px;
-}
-
-@media all and (max-width: 1024px) {
-
-	#breadcrumbs{
-		position: relative;
-		min-width: 100%;
-		overflow-x: auto;
-		height: 21px
-	}
-
-	#breadcrumbs ul{
-		white-space: nowrap;
-		overflow: auto;
-	}
-
-	#breadcrumbs li{
-		white-space: nowrap;
-	}
-
-	#breadcrumbs::after {
-	    background: -moz-linear-gradient(left, rgba(255,255, 255, 0.2), #ffffff 100%);
-	    background: -webkit-linear-gradient(left, rgba(255,255, 255, 0.2), #ffffff 100%);
-	    background: -o-linear-gradient(left, rgba(255,255, 255, 0.2), #ffffff 100%);
-	    background: -ms-linear-gradient(left, rgba(255,255, 255, 0.2), #ffffff 100%);
-	    background: linear-gradient(to right, rgba(255,255, 255, 0.2), #ffffff 100%);
-	    pointer-events: none;
-	    position: absolute;
-	    right: 0;
-	    top: 0;
-	    height: 100%;
-	    content: '';
-	    width: 35px;
-	}
 
 }
 /* End */
@@ -17617,7 +17546,6 @@ div.bx-debug-summary{
 /* /bitrix/components/dresscode/favorite.line/templates/version4/style.css?15906767341330 */
 /* /bitrix/templates/dresscodeV2/components/bitrix/sale.basket.basket.line/topCart5/style.css?15906774412196 */
 /* /bitrix/templates/dresscodeV2/components/bitrix/menu/catalogMenu/style.css?15906774419351 */
-/* /bitrix/templates/dresscodeV2/components/bitrix/breadcrumb/.default/style.css?15906774411382 */
 /* /bitrix/components/dresscode/products.by.filter/templates/.default/style.css?15906767341220 */
 /* /bitrix/components/dresscode/catalog.viewed.product/templates/.default/style.css?15906767341221 */
 /* /bitrix/templates/dresscodeV2/components/bitrix/catalog.bigdata.products/.default/style.css?15906774412069 */

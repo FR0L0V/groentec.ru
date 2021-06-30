@@ -17,6 +17,10 @@
 	margin-right: 0;
 }
 
+#personalMenu li:nth-child(2), #personalMenu li:last-child {
+    display: none;
+}
+
 #personalMenu li a{
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
